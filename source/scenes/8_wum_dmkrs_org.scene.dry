@@ -1,6 +1,6 @@
 title: Define decision-makers
 on-arrival: progress = 9
-view-if: part-of = "org"
+view-if: player = "org"
 
 Facilyn: Nice.
 

@@ -28,11 +28,12 @@ A delivery robot pauses outside the teahouse, apparently consulting its internal
 @xmpl_custom
 title: I have my own example in mind
 on-arrival: example_type = "I have my own example in mind"
-tags: example_details
+go-to: xmpl_example_chosen
+tags: example_types
 
 Me: I have my own example in mind.
 
-Facilyn: Perfect! Keep that clearly in mind as we work through the seven context checks. 
+Facilyn: Wonderful. 
 
 @xmpl_personal_decision
 title: A personal decision
@@ -42,22 +43,18 @@ tags: example_types
 
 Me: A personal decision.
 
-Facilyn: Excellent. This touches on lifestyle, relationships, education, health, or how you spend your time and resources.
-
-- #example_details
+Facilyn: Excellent. 
 
 @xmpl_community_decision
 title: A decision regarding family, friends or community
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: example_type = "A decision regarding family, friends or community"
 go-to: xmpl_example_chosen
 tags: example_types
 
 Me: A decision regarding family, friends or community.
 
-Facilyn: Perfect. This might involve your closest fellows.
-
-- #example_details
+Facilyn: Perfect. 
 
 @xmpl_environmental_decision
 title: An environmental or land management decision
@@ -68,8 +65,6 @@ tags: example_types
 Me: An environmental or land management decision.
 
 Facilyn: Wonderful. This touches on land use, conservation, sustainability practices, or environmental impact.
-
-- #example_details
 
 @xmpl_agricultural_decision
 title: An agricultural decision
@@ -165,6 +160,4 @@ go-to: 24_fq_cause_effect
 
 Facilyn: To choose your solution, you consider experience, experts' or friends' advice, and laws as always.  
 
-Facilyn: And when you come up with your preferred solution, before you take any action, you will run your decision through the seven context checks.
-
-Facilyn: Answer these questions in quick succession to see the likely effect on your whole. 
+Facilyn: And when you come up with your preferred solution, before you take any action, you will run your decision through the seven context checks to see the likely effect on your whole. 

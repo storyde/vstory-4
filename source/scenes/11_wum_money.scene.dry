@@ -23,7 +23,7 @@ Facilyn: The monetary resources include cash, savings, a credit you could take i
 
 @wumm_ind_rural
 title: Savings and income from produce
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: wum-money = "Savings and income from produce"
 go-to: 13_qol_intro
 tags: monetary_rcs
@@ -32,7 +32,7 @@ Me: Savings and income from produce.
 
 @wumm_ind_urban
 title: Salary and savings
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: wum-money = "Salary and savings"
 go-to: 13_qol_intro
 tags: monetary_rcs
@@ -41,7 +41,7 @@ Me: Salary and savings.
 
 @wumm_ind_nomad
 title: Savings and freelance income
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: wum-money = "Savings and freelance income"
 go-to: 13_qol_intro
 tags: monetary_rcs
@@ -50,7 +50,7 @@ Me: Savings and freelance income.
 
 @wumm_ind_student
 title: Some cash or savings
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: wum-money = "Some cash or savings"
 go-to: 13_qol_intro
 tags: monetary_rcs
@@ -61,7 +61,7 @@ Me: Some cash or savings.
 
 @wumm_grp_commune
 title: Shared treasury and member contributions
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: wum-money = "Shared treasury and member contributions"
 go-to: 13_qol_intro
 tags: monetary_rcs
@@ -70,7 +70,7 @@ Me: Shared treasury and member contributions.
 
 @wumm_grp_family_biz
 title: Business revenue and family savings
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: wum-money = "Business revenue and family savings"
 go-to: 13_qol_intro
 tags: monetary_rcs
@@ -79,7 +79,7 @@ Me: Business revenue and family savings.
 
 @wumm_grp_urban_col
 title: Rent contributions and project grants
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: wum-money = "Rent contributions and project grants"
 go-to: 13_qol_intro
 tags: monetary_rcs

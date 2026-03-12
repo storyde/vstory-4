@@ -24,7 +24,7 @@ Facilyn: These people are no less important than the decision makers. In fact, t
 
 @rbhm_ind_rural
 title: Friends, neighbours and local community
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: rb-human = "Friends, neighbours and local community"
 go-to: 11_wum_money
 tags: human_rcs
@@ -33,7 +33,7 @@ Me: Friends, neighbours and local community.
 
 @rbhm_ind_urban
 title: Friends, neighbours and work associates
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: rb-human = "Friends, neighbours and work associates"
 go-to: 11_wum_money
 tags: human_rcs
@@ -42,7 +42,7 @@ Me: Friends, neighbours and work associates.
 
 @rbhm_ind_nomad
 title: Fellow travellers and host communities
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: rb-human = "Fellow travellers and host communities"
 go-to: 11_wum_money
 tags: human_rcs
@@ -53,7 +53,7 @@ Me: Fellow travellers and host communities.
 
 @rbhm_grp_commune
 title: Neighbors and local authorities
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: rb-human = "Neighbors and local authorities"
 go-to: 11_wum_money
 tags: human_rcs
@@ -62,7 +62,7 @@ Me: Neighbors and local authorities.
 
 @rbhm_grp_family_biz
 title: Customers and suppliers
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: rb-human = "Customers and suppliers"
 go-to: 11_wum_money
 tags: human_rcs
@@ -71,7 +71,7 @@ Me: Customers and suppliers.
 
 @rbhm_grp_urban_col
 title: Friends and neighbours
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: rb-human = "Friends and neighbours"
 go-to: 11_wum_money
 tags: human_rcs

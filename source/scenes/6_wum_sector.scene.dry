@@ -1,5 +1,5 @@
 title: Got it
-view-if: part-of = "org"
+view-if: player = "org"
 on-arrival: progress = 8
 tags: whole_u_mgmt
 new-page: true

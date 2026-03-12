@@ -21,7 +21,7 @@ new-page: true
 
 [? if progress > 26 : <details><summary>Holistic context</summary><p>Your Holistic Context is your shared “north star” for decision-making. It describes:<br> • The quality of life you want<br> • The future resource base needed to sustain it</p></details> ?]
 
-[? if progress > 13 and part-of = "org" : <details><summary>Holistic context for organisations</summary><p>For organisations, the Holistic Context also includes a statement of purpose for the organisation.</p></details> ?]
+[? if progress > 13 and player = "org" : <details><summary>Holistic context for organisations</summary><p>For organisations, the Holistic Context also includes a statement of purpose for the organisation.</p></details> ?]
 
 [? if progress > 26 : <h1>The seven filter questions: </h1> ?]
 

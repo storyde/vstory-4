@@ -37,7 +37,7 @@ Me: A collaborative, supportive and inspiring partner.
 
 @qolas_ind_balanced
 title: A balanced, joyful and fulfilled person
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: qol-aspiration = "a balanced, joyful and fulfilled person"
 go-to: qolac_accomplish
 tags: qol_aspiration
@@ -46,7 +46,7 @@ Me: A balanced, joyful and fulfilled person.
 
 @qolas_ind_learner
 title: A curious, lifelong learner and explorer
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: qol-aspiration = "a curious, lifelong learner and explorer"
 go-to: qolac_accomplish
 tags: qol_aspiration
@@ -57,7 +57,7 @@ Me: A curious, lifelong learner and explorer.
 
 @qolas_loving_family
 title: A loving, caring and inclusive community
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: qol-aspiration = "a loving, caring and inclusive community"
 go-to: qolac_accomplish
 tags: qol_aspiration
@@ -68,7 +68,7 @@ Me: A loving, caring and inclusive community.
 
 @qolas_resilient_adaptive
 title: A resilient, adaptive and thriving organization
-view-if: part-of = "org"
+view-if: player = "org"
 on-arrival: qol-aspiration = "a resilient, adaptive and thriving organization"
 go-to: qolac_accomplish
 tags: qol_aspiration
@@ -77,7 +77,7 @@ Me: A resilient, adaptive and thriving organization.
 
 @qolas_innovative_pioneer
 title: An innovative pioneer exploring new frontiers
-view-if: part-of = "org"
+view-if: player = "org"
 on-arrival: qol-aspiration = "an innovative pioneer exploring new frontiers"
 go-to: qolac_accomplish
 tags: qol_aspiration
@@ -126,7 +126,7 @@ Me: Empower others to reach their full potential.
 
 @qolac_ind_meaning
 title: Live a life of deep meaning and joy
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: qol-accomplish = "live a life of deep meaning and joy"
 go-to: 19_qol_textarea
 tags: qol_accomplish
@@ -135,7 +135,7 @@ Me: Live a life of deep meaning and joy.
 
 @qolac_ind_potential
 title: Realize and express my unique potential
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: qol-accomplish = "realize and express my unique potential"
 go-to: 19_qol_textarea
 tags: qol_accomplish
@@ -146,7 +146,7 @@ Me: Realize and express my unique potential.
 
 @qolac_grp_resilient
 title: Build a resilient, supportive and vibrant community
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: qol-accomplish = "build a resilient, supportive and vibrant community"
 go-to: 19_qol_textarea
 tags: qol_accomplish
@@ -155,7 +155,7 @@ Me: Build a resilient, supportive and vibrant community.
 
 @qolac_bridge_divides
 title: Bridge divides and foster deep understanding
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: qol-accomplish = "bridge divides and foster deep understanding"
 go-to: 19_qol_textarea
 tags: qol_accomplish
@@ -166,7 +166,7 @@ Me: Bridge divides and foster deep understanding.
 
 @qolac_solve_problems
 title: Solve meaningful problems that truly matter
-view-if: part-of = "org"
+view-if: player = "org"
 on-arrival: qol-accomplish = "solve meaningful problems that truly matter"
 go-to: 19_qol_textarea
 tags: qol_accomplish
@@ -175,7 +175,7 @@ Me: Solve meaningful problems that truly matter.
 
 @qolac_org_ethical
 title: Lead the way in ethical and responsible innovation
-view-if: part-of = "org"
+view-if: player = "org"
 on-arrival: qol-accomplish = "lead the way in ethical and responsible innovation"
 go-to: 19_qol_textarea
 tags: qol_accomplish

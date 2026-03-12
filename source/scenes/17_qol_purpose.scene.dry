@@ -1,6 +1,6 @@
 title: Purpose
 on-arrival: progress = 20
-go-to: qolp_organisation if part-of = "org" 
+go-to: qolp_organisation if player = "org" 
 
 Facilyn: The next question is about purpose. It asks: 
 
@@ -26,7 +26,7 @@ Facilyn: Ask yourself: What are we about?
 
 @qolp_ind_learning
 title: Continuous learning, growth and development
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: qol-purpose = "continuous learning, growth and development"
 go-to: 18_qol_contribution
 tags: qol_purpose
@@ -35,7 +35,7 @@ Me: Continuous learning, growth and development.
 
 @qolp_ind_health
 title: Holistic health, vitality and wellbeing
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: qol-purpose = "holistic health, vitality and wellbeing"
 go-to: 18_qol_contribution
 tags: qol_purpose
@@ -44,7 +44,7 @@ Me: Holistic health, vitality and wellbeing.
 
 @qolp_ind_creativity
 title: Creativity, innovation and meaningful expression
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: qol-purpose = "creativity, innovation and meaningful expression"
 go-to: 18_qol_contribution
 tags: qol_purpose
@@ -55,7 +55,7 @@ Me: Creativity, innovation and meaningful expression.
 
 @qolp_grp_community
 title: Service, connection and community support
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: qol-purpose = "service, connection and community support"
 go-to: 18_qol_contribution
 tags: qol_purpose
@@ -64,7 +64,7 @@ Me: Service, connection and community support.
 
 @qolp_grp_sustainability
 title: Environmental stewardship and sustainability
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: qol-purpose = "environmental stewardship and sustainability"
 go-to: 18_qol_contribution
 tags: qol_purpose
@@ -73,7 +73,7 @@ Me: Environmental stewardship and sustainability.
 
 @qolp_grp_support
 title: Mutual support, care and solidarity
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: qol-purpose = "mutual support, care and solidarity"
 go-to: 18_qol_contribution
 tags: qol_purpose

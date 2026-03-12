@@ -45,7 +45,7 @@ Me: Work that sparks curiosity and demands pushing boundaries.
 
 @qolc_ind_growth
 title: Cultivating patience and fostering personal development.
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: qol-challenge = "Cultivating patience and fostering personal development."
 go-to: qolg_growth
 tags: challenge_aspects
@@ -56,7 +56,7 @@ Me: Cultivating patience and fostering personal development.
 
 @qolc_experimentation_space
 title: A fearless space for experimentation and being humbled by nature's wisdom
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: qol-challenge = "A fearless space for experimentation and being humbled by nature's wisdom"
 go-to: qolg_growth
 tags: challenge_aspects
@@ -67,7 +67,7 @@ Me: A fearless space for experimentation and being humbled by nature's wisdom.
 
 @qolc_clarity_creation
 title: Creating clarity and direction where none existed before
-view-if: part-of = "org"
+view-if: player = "org"
 on-arrival: qol-challenge = "Creating clarity and direction where none existed before"
 go-to: qolg_growth
 tags: challenge_aspects
@@ -76,7 +76,7 @@ Me: Creating clarity and direction where none existed before.
 
 @qolc_freedom_flow
 title: The exhilaration of autonomy, where freedom and responsibility merge into creative flow
-view-if: part-of = "org"
+view-if: player = "org"
 on-arrival: qol-challenge = "The exhilaration of autonomy, where freedom and responsibility merge into creative flow"
 go-to: qolg_growth
 tags: challenge_aspects
@@ -137,7 +137,7 @@ Me: Finding balance and harmony between work, life, and nature.
 
 @qolg_spiritual
 title: Spiritual or religious beliefs providing guidance and meaning
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: qol-growth = "Spiritual or religious beliefs providing guidance and meaning"
 go-to: 17_qol_purpose
 tags: growth_aspects
@@ -146,7 +146,7 @@ Me: Spiritual or religious beliefs providing guidance and meaning.
 
 @qolg_resilience
 title: Cultivating inner peace and emotional resilience
-view-if: part-of = "individual"
+view-if: player = "me"
 on-arrival: qol-growth = "Cultivating inner peace and emotional resilience"
 go-to: 17_qol_purpose
 tags: growth_aspects
@@ -157,7 +157,7 @@ Me: Cultivating inner peace and emotional resilience.
 
 @qolg_integrity
 title: Free to act with integrity and according to our convictions
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: qol-growth = "Free to act with integrity and according to our convictions"
 go-to: 17_qol_purpose
 tags: growth_aspects
@@ -166,7 +166,7 @@ Me: Free to act with integrity and according to our convictions.
 
 @qolg_connection
 title: Deepening connection and trust within our community
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: qol-growth = "Deepening connection and trust within our community"
 go-to: 17_qol_purpose
 tags: growth_aspects
@@ -175,7 +175,7 @@ Me: Deepening connection and trust within our community.
 
 @qolg_mentorship
 title: Sharing wisdom and mentoring one another
-view-if: part-of = "group"
+view-if: player = "group"
 on-arrival: qol-growth = "Sharing wisdom and mentoring one another"
 go-to: 17_qol_purpose
 tags: growth_aspects
@@ -186,7 +186,7 @@ Me: Sharing wisdom and mentoring one another.
 
 @qolg_evolution
 title: Evolving our collective purpose to serve a greater good
-view-if: part-of = "org"
+view-if: player = "org"
 on-arrival: qol-growth = "Evolving our collective purpose to serve a greater good"
 go-to: 17_qol_purpose
 tags: growth_aspects
@@ -195,7 +195,7 @@ Me: Evolving our collective purpose to serve a greater good.
 
 @qolg_innovation
 title: Fostering a culture of innovation and continuous improvement
-view-if: part-of = "org"
+view-if: player = "org"
 on-arrival: qol-growth = "Fostering a culture of innovation and continuous improvement"
 go-to: 17_qol_purpose
 tags: growth_aspects

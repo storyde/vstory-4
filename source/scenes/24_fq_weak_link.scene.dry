@@ -1,13 +1,13 @@
 title: Weak Link Checks
 subtitle: Identifying Vulnerabilities
-on-arrival: progress = 27
+on-arrival: progress = 29
 go-to: social_weak_link
 
 Facilyn: We all know, that a chain is only as strong as its weakest link. The same applies to your decisions. Therefore, we use weak link checks to help you identify vulnerabilities. 
 
 @social_weak_link
 title: Social Weak Link — Relationships
-on-arrival: progress = 28
+on-arrival: progress = 30
 
 Facilyn: The social weak link question reminds you to address a potential conflict in advance:
 
@@ -17,7 +17,7 @@ Facilyn: "Could this action, due to prevailing attitudes or beliefs, create a we
 
 @biological_weak_link
 title: Biological Weak Link — Organisms
-on-arrival: progress = 29
+on-arrival: progress = 31
 
 Facilyn: The biological weak link is about addressing the greatest vulnerability when dealing with populations of plant or animal organisms:
 
@@ -27,7 +27,7 @@ Facilyn: "Does this action address the weakest point in the life cycle of this o
 
 @financial_weak_link
 title: Financial Weak Link — Production
-on-arrival: progress = 30
+on-arrival: progress = 32
 
 Facilyn: The financial weak link is about three areas of production: resource conversion, product conversion, and marketing (or money conversion):
 

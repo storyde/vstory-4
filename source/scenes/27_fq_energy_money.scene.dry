@@ -1,6 +1,6 @@
 title: Energy/Money Source Check
 subtitle: Sustainable Resource Management
-on-arrival: progress = 33
+on-arrival: progress = 35
 
 Facilyn: The next check applies to both energy and money and has two parts. 
 
@@ -56,7 +56,7 @@ Me: Skip source check.
 
 @fqem_use_intro
 title: Energy/Money Use Check
-on-arrival: progress = 34
+on-arrival: progress = 36
 
 Facilyn: Now the second part of this filter is about the use:
 

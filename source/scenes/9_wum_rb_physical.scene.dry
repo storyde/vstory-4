@@ -1,6 +1,6 @@
 title: Physical Resources
 subtitle: Major Physical Assets Available to You
-on-arrival: progress = 11
+on-arrival: progress = 10
 
 [? if part-of != "individual" : Facilyn: This framework requires everyone you just named to be involved in this conversation. So, this would normally be the moment you make sure everybody joins in. ?]
 

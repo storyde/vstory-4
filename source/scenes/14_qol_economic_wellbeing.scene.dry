@@ -1,5 +1,5 @@
 title: Ok
-on-arrival: progress = 16
+on-arrival: progress = 15
 tags: qol_intro
 new-page: true
 
@@ -61,6 +61,7 @@ Me: Resources for good health and security, with reliable food, clean water, clo
 
 @qolewb_balance
 title: Balance
+on-arrival: progress = 16
 
 Facilyn: Economic well-being also enables you to have time for family and friends or for cultural and other pursuits. 
 

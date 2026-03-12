@@ -4,9 +4,9 @@ title: Progress
 
 [? if fltr-result != "visited" : [+ progress : qprogress +] ?]
 
-[? if progress > 33 : [+ progress : qprogress +] ?]
+[? if progress > 39 : [+ progress : qprogress +] ?]
 
-[? if fltr-result = "visited" and progress < 34 : **Finalize Filter Questions:**<br>Revisit skipped filters ?]
+[? if fltr-result = "visited" and progress < 40 : **Finalize Filter Questions:**<br>Revisit skipped filters ?]
 
 <br>
 

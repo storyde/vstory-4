@@ -1,6 +1,6 @@
 title: Sustainability Check
 subtitle: Long-term Thinking
-on-arrival: progress = 35
+on-arrival: progress = 37
 
 Facilyn: The sustainability check asks you about the long-term social and environmental consequences of your actions:
 
@@ -58,6 +58,7 @@ Facilyn: Be careful. This check almost always applies.
 
 @fqsus_environment_intro
 title: Environment filter
+on-arrival: progress = 38
 
 Facilyn: Now, let's look at the **Environment**. Will this action lead toward or away from the future landscape described in our holistic context?
 

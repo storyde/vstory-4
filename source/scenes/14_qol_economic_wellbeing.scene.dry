@@ -5,23 +5,9 @@ new-page: true
 
 Me: Ok
 
-Facilyn: Let’s start with the essential human needs that are met by economic well-being: food, clothing, shelter, health, security. 
+Facilyn: Let’s start with essential human needs that are met by economic well-being like the quality of your food and water or your shelter.
 
-Facilyn: What aspects of economic well-being improve your quality of life? Focus on what money provides, not money itself.
-
-- #economic_aspects
-
-@qolew_explanation
-title: I am not sure...
-max-visits: 1
-order: 10
-tags: economic_aspects
-
-Me: I am not sure...
-
-Facilyn: Take your time. Remember, you're describing how you want your economic life to feel and function, not specific dollar amounts or possessions.
-
-Facilyn: Name what you gain from having money. Security? Freedom? The ability to help others? That underlying benefit is what belongs in your Quality of Life Statement.
+Facilyn: Please list, which aspects of economic well-being improve your quality of life. 
 
 - #economic_aspects
 
@@ -66,6 +52,20 @@ on-arrival: progress = 16
 Facilyn: Economic well-being also enables you to have time for family and friends or for cultural and other pursuits. 
 
 Facilyn: Wich aspects resonate most with you?
+
+- #balance_aspects
+
+@qolewb_explanation
+title: I am not sure...
+max-visits: 1
+order: 10
+tags: balance_aspects
+
+Me: I am not sure...
+
+Facilyn: Take your time. Remember, you're describing how you want your economic life to feel and function, not specific dollar amounts or possessions.
+
+Facilyn: Name what you gain from having money. Freedom? The ability to help others? That underlying benefit is what belongs in your Quality of Life Statement.
 
 - #balance_aspects
 

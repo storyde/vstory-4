@@ -69,13 +69,13 @@ tags: st_purpose
 Me: We make life more convenient and efficient.
 
 @stmp_bus_insurance
-title: We protect people and organisations from financial risk so they can thrive
+title: We protect people and organisations from financial risk
 view-if: sector = "business"
-on-arrival: st-purpose = "We protect people and organisations from financial risk so they can thrive"
+on-arrival: st-purpose = "We protect people and organisations from financial risk"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We protect people and organisations from financial risk so they can thrive.
+Me: We protect people and organisations from financial risk.
 
 @stmp_bus_hospitality
 title: We provide welcoming spaces and experiences for travellers

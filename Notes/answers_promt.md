@@ -2,70 +2,84 @@ Prompt for the editor AI:
  
 I am refining the answer choices that users can select for variables in a Holistic Context template.
 
-Important: do NOT rewrite the template structure or change the order of the variables. Only improve the wording of the answer choices that go inside the variables so the final rendered text sounds natural, grammatical, and inspiring.
+Important: do NOT rewrite the template structure or change the order of the variables. Only improve the wording of the answers that go inside the variables so the final rendered text sounds natural, grammatical, and inspiring.
 
 Here is the fixed template:
 
-<h1>Holistic Context:</h1><br>
-We want a life that includes [+ qol-economic +] and relationships grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in being [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br><br>
-We will act in ways that are [+ frb-people +]. <br><br>
-All to be ensured, for many generations to come, on a foundation of [+ frb-environment +].
-
-Current output that sounds wrong:
-
-Holistic Context:
-We want a life that includes Comfortable surroundings and freedom to pursue my interests and relationships grounded in Open communication, mutual trust and enjoying each other's company. We thrive on Free to act with integrity and according to our convictions and want to be free to 0. We find purpose in being service, connection and community support. We seek to be a positive and transformative force for change and want to contribute to regenerate damaged social and ecological systems.
-
-We will act in ways that are Honest, responsive and respectful.
-
-All to be ensured, for many generations to come, on a foundation of Healthy, biologically diverse land with covered soils and clear, perennial streams.
+<h1>Holistic Context:</h1><br>We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +].
 
 Your task:
-1. Rephrase the answer choices inside the variables so they fit the fixed template naturally.
+1. Rephrase the answer choices so they fit the fixed template naturally.
 2. Keep the meaning as close as possible, but improve grammar, tone, and flow.
-3. Every variable value should start with a lower-case letter unless it is a true proper noun.
-4. Do not include pronouns that clash with the template. Since this is the “We/our” version, avoid “my” and “I”.
-5. Do not repeat words already provided by the template unless necessary.
-6. Make each variable grammatically match the words before it.
+3. The text in the titles, after the Me: prefix, and in the variables should be the same. The only exception is that titles and the Me: prefix may start with capital letters, while variable values should start with lower-case letters unless they contain a true proper noun.
+4. Only the short variable values should start lower-case. Free text entered into [+ textarea +] may use normal sentence capitalization.
+5. Do not include pronouns. I use the same variables for the “We/our” version of the template as well as for the “I/My” version.
+6. Do not repeat words already provided by the template unless necessary.
+7. Make each variable grammatically match the words before it.
 
 Grammar rules for each variable:
-- [+ qol-economic +] must fit after: “includes ...”
-  Use a lower-case noun phrase, for example: “comfortable surroundings, security and freedom to pursue our interests”
-- [+ qol-relationships +] must fit after: “relationships grounded in ...”
+- [+ qol-economic +] must fit after: “want ...” and before: “in balanced lives with ...”
+  Use a lower-case noun phrase describing material well-being, security, health, comfort, or similar quality-of-life conditions.
+  It should flow naturally in the sentence: “We want ... in balanced lives with ...”
+  Example: “comfortable surroundings, health, security and nutritious food”
+
+- [+ qol-balance +] must fit after: “in balanced lives with ...”
+  Use a lower-case noun phrase describing time, space, or capacity for family, friends, community, rest, leisure, reflection, or cultural pursuits.
+  Example: “time for family, friends, community and meaningful leisure”
+
+- [+ qol-relationships +] must fit after: “relationships will be grounded in ...”
   Use a lower-case phrase about relationship qualities.
+  Focus on the qualities of the relationships, not on actions or commands.
+  Example: “open communication, mutual trust and enjoying each other’s company”
+
 - [+ qol-challenge +] must fit after: “thrive on ...”
-  Use a lower-case phrase about stimulation, challenge, experimentation, creativity, learning, reflection, etc.
+  Use a lower-case phrase about stimulation, challenge, experimentation, creativity, learning, reflection, discovery, or meaningful effort.
   Do NOT start this variable with “free to...”, because the template already says “want to be free to” in the next part.
+  Example: “experimentation, learning and creative problem-solving”
+
 - [+ qol-growth +] must fit after: “want to be free to ...”
-  Use a lower-case verb phrase, for example: “explore our beliefs and values”, “learn continuously”, or “experiment, reflect and grow”.
-  Never return placeholders like “0”.
-- [+ qol-purpose +] must fit after: “find purpose in being ...”
-  This means it should usually be a phrase that works after “being”, such as “of service to others”, “creative stewards of the land”, or “deeply connected to community and place”.
-  Avoid awkward phrases like “being service”.
+  Use a lower-case verb phrase.
+  It should describe what the person or group wants the freedom to do in order to grow, develop, explore, express values, or deepen beliefs.
+  Examples: “learn continuously”, “explore deeply held beliefs and values”, “experiment, reflect and grow”
+
+- [+ qol-purpose +] must fit after: “find purpose in ...”
+  Use a lower-case phrase that works naturally after “in”.
+  This can be a gerund phrase, a noun phrase, or a value-oriented phrase, as long as it sounds grammatical in the full sentence.
+  Good examples: “serving others and caring for the land”, “creative stewardship”, “community connection and meaningful contribution”
+  This Variable is used for player = "me" and player = "group" 
+  For player = "org" this variable uses the statement of purpose, so change the answers to the statement of purpose accordingly.
+
 - [+ qol-aspiration +] must fit after: “seek to be ...”
   Use a lower-case identity or aspiration phrase.
-- [+ qol-accomplish +] must fit after: “contribute to ...”
-  This means it should be a noun phrase or gerund-style phrase, not a bare infinitive.
+  It should describe what kind of person, partner, team, or organisation one wants to become.
+  Example: “a positive and transformative force for change”
+
+- [+ qol-accomplish +] must fit after: “want to contribute to ...”
+  Use a lower-case noun phrase or gerund-style phrase, not a bare infinitive.
   Good: “the regeneration of damaged social and ecological systems”
+  Good: “building a resilient, supportive and vibrant community”
   Bad: “regenerate damaged social and ecological systems”
-- [+ frb-people +] must fit after: “act in ways that are ...”
-  Use lower-case adjectives or a short descriptive phrase.
+
+- [+ textarea +] Do not touch this, as it will be custom text provided by the player. 
+
+- [+ frb-people +] must fit after: “will act in ways that are ...”
+  Use lower-case adjectives or a short descriptive phrase about behaviour.
+  Focus on how the person, group, or organisation behaves toward others in order to sustain support and healthy relationships.
+  Example: “honest, responsive and respectful”
+
 - [+ frb-environment +] must fit after: “on a foundation of ...”
-  Use a lower-case environmental/landscape phrase.
+  Use a lower-case environmental or landscape phrase.
+  It should describe the kind of land, water, biodiversity, or ecological health needed far into the future. It should mention the four ecosystem processes: water and mineral cycles, community dynamics and energy flow. 
+  Example: “healthy, biologically diverse land with covered soils and clear, perennial streams. Water and mineral cycles will be maximized and energy flow optimized for all life forms.”
 
 Please do these things in your response:
-A. Show the improved wording for each variable.
-B. Briefly explain why each revised variable fits the template better.
-C. Render the full final Holistic Context text using your improved variable choices.
-D. If a current variable is fundamentally mismatched to its slot, suggest 2–3 alternative answer choices for that slot.
+A. Improve answers that sound too flat or generic. 
+B. Make sure, the answers match the overall tone 
 
 Focus especially on fixing these problems:
-- title case where lower case is needed
-- “my” inside the We-template
-- “free to...” being placed in the wrong variable
-- empty or broken values like “0”
-- “being service...” sounding ungrammatical
-- “contribute to regenerate...” sounding ungrammatical
+- Capital letter where lower-case is needed
+- phrases being placed in the wrong variable
+- grammatical improvement
 
 Aim for wording that sounds natural, warm, and human rather than stiff or corporate.
 

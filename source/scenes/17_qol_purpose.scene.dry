@@ -1,5 +1,5 @@
 title: Purpose
-on-arrival: progress = 17
+on-arrival: progress = 19
 go-to: qolp_organisation if part-of = "org" 
 
 Facilyn: The next question is about purpose. It asks: 

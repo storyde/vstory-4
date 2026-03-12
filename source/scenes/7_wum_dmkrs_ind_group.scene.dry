@@ -1,6 +1,6 @@
 title: Got it
 view-if: part-of = "individual"
-on-arrival: progress = 8
+on-arrival: progress = 9
 tags: whole_u_mgmt
 new-page: true
 
@@ -67,7 +67,7 @@ Facilyn: Great. We will treat all of you together as the decision makers in your
 @wum_dmkrs_group
 title: Got it
 view-if: part-of = "group"
-on-arrival: progress = 8
+on-arrival: progress = 9
 tags: whole_u_mgmt
 
 Me: Got it.

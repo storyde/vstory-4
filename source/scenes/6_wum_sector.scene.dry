@@ -1,5 +1,6 @@
 title: Got it
 view-if: part-of = "org"
+on-arrival: progress = 8
 tags: whole_u_mgmt
 new-page: true
 

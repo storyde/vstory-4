@@ -1,0 +1,69 @@
+title: Progress
+
+# This scene contains information for the left sidebar.
+
+[? if fltr-result != "visited" : [+ progress : qprogress +] ?]
+
+[? if progress > 33 : [+ progress : qprogress +] ?]
+
+[? if fltr-result = "visited" and progress < 34 : **Finalize Filter Questions:**<br>Revisit skipped filters ?]
+
+<br>
+
+[? if decision-makers = 0 : *Interact for more.* ?]
+
+[? if decision-makers != 0 : <h1>Holistic Context: </h1> ?]
+
+[? if decision-makers != 0 : **Whole Under Management** ?]
+[? if decision-makers != 0 : Decision makers: [+ decision-makers +] ?]
+[? if rb-physical != 0 : Physical resources: [+ rb-physical +] ?]
+[? if rb-human != 0 : Social resources: [+ rb-human +] ?]
+[? if wum-money != 0 : Moneytary resources: [+ wum-money +] ?]
+
+[? if part-of = "org" and st-purpose != 0 : **Statement of Purpose** ?]
+[? if part-of = "org" and st-purpose != 0 : [+ st-purpose +] ?]
+
+[? if qol-economic != 0 : **Quality of Life** ?]
+[? if qol-economic != 0 : Economic well-being: [+ qol-economic +] ?]
+[? if qol-balance != 0 : Have time for: [+ qol-balance +] ?]
+[? if qol-relationships != 0 : Relationships: [+ qol-relationships +] ?]
+[? if qol-challenge != 0 : Challenge: [+ qol-challenge +] ?]
+[? if qol-growth != 0 : Growth: [+ qol-growth +] ?]
+[? if qol-purpose != 0 and part-of = "individual" : I am about: [+ qol-purpose +] ?]
+[? if qol-purpose != 0 and part-of != "individual" : We are about: [+ qol-purpose +] ?]
+[? if qol-aspiration != 0 and part-of = "individual" : I want to be: [+ qol-aspiration +] ?]
+[? if qol-aspiration != 0 and part-of != "individual" : We want to be: [+ qol-aspiration +] ?]
+[? if qol-accomplish != 0 and part-of = "individual" : I ultimately want to accomplish: [+ qol-accomplish +] ?]
+[? if qol-accomplish != 0 and part-of != "individual" : We ultimately want to accomplish: [+ qol-accomplish +] ?]
+[? if textarea != 0 : [+ textarea +] ?]
+
+[? if frb-people != 0 or frb-environment != 0 : **Future Resource Base** ?]
+[? if frb-people != 0 : Our behaviour: [+ frb-people +] ?]
+[? if frb-environment != 0 : Environment: [+ frb-environment +] ?]
+
+[? if fltr-cause != 0 : </h1>Filter Questions: </h1> ?]
+
+[? if fltr-cause != 0 : **Cause and Effect** ?]
+[? if fltr-cause != 0 : Cause and Effect: [+ fltr-cause +] ?]
+
+[? if wl-social != 0 or wl-biological != 0 or wl-financial != 0 : **Weak Link** ?]
+[? if wl-social != 0 : Social Weak Link: [+ wl-social +] ?]
+[? if wl-biological != 0 : Biological Weak Link: [+ wl-biological +] ?]
+[? if wl-financial != 0 : Financial Weak Link: [+ wl-financial +] ?]
+
+[? if fltr-marginal != 0 : **Marginal Reaction** ?]
+[? if fltr-marginal != 0 : Marginal Reaction: [+ fltr-marginal +] ?]
+
+[? if fltr-profit != 0 : **Gross Profit** ?]
+[? if fltr-profit != 0 : Gross Profit: [+ fltr-profit +] ?]
+
+[? if em-source != 0 or em-use != 0 : **Energy/Money** ?]
+[? if em-source != 0 : Energy/Money Source: [+ em-source +] ?]
+[? if em-use != 0 : Energy/Money Use: [+ em-use +] ?]
+
+[? if sus-behaviour != 0 or sus-environment != 0 : **Sustainability** ?]
+[? if sus-behaviour != 0 : Behaviour: [+ sus-behaviour +] ?]
+[? if sus-environment != 0 : Environment: [+ sus-environment +] ?]
+
+[? if fltr-gut != 0 : **Gut Feel** ?]
+[? if fltr-gut != 0 : Gut Feel: [+ fltr-gut +] ?]

@@ -1,0 +1,136 @@
+title: Harbour 
+on-arrival: progress = 3
+
+You reach the old harbour.
+
+A delivery drone circles above the water, searching for the best angle for a selfie.  
+
+In the hinterland, a dust storm is brewing, its grit already scratching at your throat.
+
+On the quay, a vendor leans against his dented water tank, hoisting a cloudy glass and calling out:
+
+Vendor: One sip for a coin. Or you keep walking thirsty. 
+
+- #harbour
+
+@vendor_scene  
+title: Approach the vendor  
+max-visits: 1
+tags: harbour
+
+You walk over to the tank. Faded posters hang from it, half covered in dust. 
+
+You can still make out the headlines: 
+
+Headline1: Harvests in the region down 70%. 
+
+Headline2: Blackouts hit the outskirts. 
+
+Headline3: The polycrisis is gaining momentum. 
+
+- #vendor
+
+@pay_vendor  
+title: Buy water
+max-visits: 1
+tags: vendor
+
+You hand over some crypto. The water tastes metallic, but it eases the scratching in your throat. 
+
+The vendor cleans some glasses.  
+
+- #vendor
+
+@ask_policrisis  
+title: What does "polycrisis" mean?
+tags: vendor
+max-visits: 1
+
+Me: Sorry, what exactly is a polycrisis? 
+
+The vendor raises his eyebrows and gestures towards the harbour with his chin. 
+
+Vendor: It used to be simple: first you had a power outtage, then maybe some protests. One after the other. 
+
+He counts them off on his fingers. 
+
+Vendor: Now the fields burn while the water is scarce, while prices shoot up, while people flee. And each of these things makes the others worse. 
+
+He shrugs. 
+
+Vendor: That's what they call a polycrisis. Many crises at once, feeding each other. 
+
+For a moment he looks at you, weighing you up.  
+
+Then he leans back against the tank.   
+
+- #vendor
+
+@ask_direction 
+title: Ask for the teahouse
+on-arrival: know-way = 1; progress = 4
+tags: vendor
+
+Me: Can you tell me how to get to the teahouse?
+
+Vendor: Follow the water until you reach the long pier with the small lighthouse at the end. You'll recognize the teahouse by the paper lanterns. They leave them out even in a storm. 
+
+You thank him, follow his gaze along the water and set off. 
+
+Between crates and moored boats, a child draws with a stick in the dust. 
+
+- #quay
+
+@child_drawing
+title: Go closer
+view-if: know-way = 1 
+tags: quay
+
+It's only a few lines, but you immediately recognize a small church, a school building, a rocket.
+
+For a moment the wind holds its breath. 
+
+Then a gust sweeps through the harbour and smears the lines until only grey dust remains. 
+
+The child glances at the empty spot, sets the stick down again and starts drawing anew. 
+
+- @way_teahouse
+
+@way_teahouse
+title: Head on to the teahouse
+unavailable-subtitle: You don't know the way yet
+choose-if: know-way = 1 
+tags: harbour, quay
+
+You walk along the quay. With every step, the shouts and engine noises grow quieter. 
+
+You reach a long pier with a small lighthouse at the end of it, its beam lost over the water. 
+
+At the start of the pier, an old warehouse rises up. 
+
+Paper lanterns sway in the wind. Between them, wind chimes made from old teapots clink softly together. 
+
+Next to the warehouse, a drone hovers in place, dropping crumbs to a swarm of eager pigeons. Then it falters, tips over and lies twitching on the ground.
+
+- #th_arrival
+
+@drone_scene  
+title: Help the drone
+max-visits: 1
+tags: th_arrival
+
+You crouch and carefully pick it up.  
+
+Me: Let's see... sensors misaligned.  
+
+You switch off the drone, adjust its optics, check the battery and switch it back on again.  
+
+It's display flickers: 
+
+RoboDisplay: `Thank you!`
+
+The drone lifts off, circling briefly before palling again with the birds. 
+
+Something about its behaviour makes you smile...
+
+- #th_arrival

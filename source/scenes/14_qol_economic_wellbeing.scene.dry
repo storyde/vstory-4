@@ -1,0 +1,138 @@
+title: Ok
+on-arrival: progress = 14
+tags: qol_intro
+new-page: true
+
+Me: Ok
+
+Facilyn: Let’s start with the essential human needs that are met by economic well-being: food, clothing, shelter, health, security. 
+
+Facilyn: What aspects of economic well-being improve your quality of life? Focus on what money provides, not money itself.
+
+- #economic_aspects
+
+@qolew_explanation
+title: I am not sure...
+max-visits: 1
+order: 10
+tags: economic_aspects
+
+Me: I am not sure...
+
+Facilyn: Take your time. Remember, you're describing how you want your economic life to feel and function, not specific dollar amounts or possessions.
+
+Facilyn: Name what you gain from having money. Security? Freedom? The ability to help others? That underlying benefit is what belongs in your Quality of Life Statement.
+
+- #economic_aspects
+
+@qolew_basic_needs_fulfilled
+title: Nutritious food, clean water, warm clothing, a safe home, good health and security
+on-arrival: qol-economic = "Nutritious food, clean water, warm clothing, a safe home, good health and security"
+go-to: qolewb_balance
+tags: economic_aspects
+
+Me: Nutritious food, clean water, warm clothing, a safe home, good health and security.
+
+@qolew_economic_security
+title: Reliable food, clean water, shelter, good health and security, plus the ability to help others
+on-arrival: qol-economic = "Reliable food, clean water, shelter, good health and security, plus the ability to help others"
+go-to: qolewb_balance
+tags: economic_aspects
+
+Me: Reliable food, clean water, shelter, good health and security, plus the ability to help others.
+
+@qolew_comfortable_surroundings
+title: A comfortable home, secure health care, and the basics covered (food, water, clothing and safety)
+on-arrival: qol-economic = "A comfortable home, secure health care, and the basics covered (food, water, clothing and safety)"
+go-to: qolewb_balance
+tags: economic_aspects
+
+Me: A comfortable home, secure health care, and the basics covered (food, water, clothing and safety).
+
+@qolew_health_and_vitality
+title: Resources for good health and security, with reliable food, clean water, clothing and shelter
+on-arrival: qol-economic = "Resources for good health and security, with reliable food, clean water, clothing and shelter"
+go-to: qolewb_balance
+tags: economic_aspects
+
+Me: Resources for good health and security, with reliable food, clean water, clothing and shelter.
+
+# Balance
+
+@qolewb_balance
+title: Balance
+
+Facilyn: Economic well-being also enables you to have time for family and friends or for cultural and other pursuits. 
+
+Facilyn: Wich aspects resonate most with you?
+
+- #balance_aspects
+
+# Balance - All
+
+@qolewb_health_education
+title: Good health, good education, and time for family, friends and community
+on-arrival: qol-balance = "Good health, good education, and time for family, friends and community"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Good health, good education, and time for family, friends and community.
+
+@qolewb_balance_leisure
+title: A balanced life with leisure, cultural pursuits, and time for family and friends
+on-arrival: qol-balance = "A balanced life with leisure, cultural pursuits, and time for family and friends"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: A balanced life with leisure, cultural pursuits, and time for family and friends.
+
+# Balance - Individual
+
+@qolewb_family_friends
+title: Quality time with family and friends, plus education and leisure for cultural pursuits
+view-if: part-of = "individual"
+on-arrival: qol-balance = "Quality time with family and friends, plus education and leisure for cultural pursuits"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Quality time with family and friends, plus education and leisure for cultural pursuits.
+
+@qolew_travel_and_experience
+title: Resources for food, clean water, health and security, plus travel and life experiences
+view-if: part-of = "individual"
+on-arrival: qol-economic = "Resources for food, clean water, health and security, plus travel and life experiences"
+go-to: 15_qol_relationships
+tags: economic_aspects
+
+Me: Resources to travel and experience the world.
+
+@qolewb_cultural_pursuits
+title: Cultural and artistic pursuits, supported by education and time for family and friends
+view-if: part-of = "individual"
+on-arrival: qol-balance = "Cultural and artistic pursuits, supported by education and time for family and friends"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Cultural and artistic pursuits, supported by education and time for family and friends.
+
+# Balance - Group
+
+@qolewb_community_wellbeing
+title: Community wellbeing, with time for family and friends, education, and leisure for culture
+view-if: part-of = "group"
+on-arrival: qol-balance = "Community wellbeing, with time for family and friends, education, and leisure for culture"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Community wellbeing, with time for family and friends, education, and leisure for culture.
+
+# Balance - Organisation
+
+@qolewb_employee_wellbeing
+title: Member wellbeing, with learning, community connection, and time for family and leisure
+view-if: part-of = "org"
+on-arrival: qol-balance = "Member wellbeing, with learning, community connection, and time for family and leisure"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Member wellbeing, with learning, community connection, and time for family and leisure.

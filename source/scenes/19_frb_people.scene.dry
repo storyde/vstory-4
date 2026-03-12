@@ -1,0 +1,79 @@
+title: Continue
+subtitle: Describe your future resource base
+on-arrival: progress = 19
+
+Me: I add: [+ textarea +]
+
+Facilyn: The last area we need to explore is how your future resource base must be to sustain your quality of life. 
+
+Facilyn: There are two elements to it. The first one is about people. 
+
+Facilyn: People will most likely judge you by your behaviour, not your fancy slogans. Therefore, please describe how you must behave to ensure the support of those in your resource base — customers, clients, suppliers, extended family, friends and others whose support you need.
+
+- #behavior_aspects
+
+@frbp_explanation
+title: I'm not sure
+max-visits: 1
+order: 10
+tags: behavior_aspects
+
+Me: I'm not sure.
+
+Facilyn: Think from the point of view of the people you named in your whole under management. For example, for clients whose loyalty you want to maintain, you might need to be honest, reliable, producing quality work.
+
+Facilyn: What other personal qualities must you demonstrate to maintain trust?
+
+Facilyn: And make sure to cover the behaviours underlying the relationships you desire among yourselves, as decision-makers, as well.
+
+A maintenance robot methodically polishes the teahouse windows, pausing occasionally to admire its own reflection with what appears to be genuine satisfaction.
+
+- #behavior_aspects
+
+@frbp_honest_transparent
+title: Honest, responsive and respectful
+on-arrival: frb-people = "Honest, responsive and respectful"
+go-to: 20_frb_environment
+tags: behavior_aspects
+
+Me: Honest, responsive and respectful.
+
+@frbp_collaborative_supportive
+title: Collaborative, fair and supportive
+on-arrival: frb-people = "Collaborative, fair and supportive"
+go-to: 20_frb_environment
+tags: behavior_aspects
+
+Me: Collaborative, fair and supportive.
+
+@frbp_professional_innovative
+title: Professional, innovative and committed
+on-arrival: frb-people = "Professional, innovative and committed"
+go-to: 20_frb_environment
+tags: behavior_aspects
+
+Me: Professional, innovative and committed.
+
+@frbp_ethical_responsible
+title: Ethical, responsible and dedicated
+on-arrival: frb-people = "Ethical, responsible and dedicated"
+go-to: 20_frb_environment
+tags: behavior_aspects
+
+Me: Ethical, responsible and dedicated.
+
+@frbp_empathetic_trustworthy
+title: Empathetic, prepared and transparent
+on-arrival: frb-people = "Empathetic, prepared and transparent"
+go-to: 20_frb_environment
+tags: behavior_aspects
+
+Me: Empathetic, prepared and transparent.
+
+@frbp_adaptive_proactive
+title: Adaptive, proactive and open-minded
+on-arrival: frb-people = "Adaptive, proactive and open-minded"
+go-to: 20_frb_environment
+tags: behavior_aspects
+
+Me: Adaptive, proactive and open-minded.

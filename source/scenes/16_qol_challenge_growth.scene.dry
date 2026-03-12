@@ -1,0 +1,202 @@
+title: Challenge and Growth
+on-arrival: progress = 16
+
+Facilyn: Now we will look at what calls for your creativity, what you find stimulating.
+
+Facilyn: What kind of challenges help you become all you can be?
+
+- #challenge_aspects
+
+@qolc_explanation
+title: Please explain a bit further
+max-visits: 1
+order: 10
+tags: challenge_aspects
+
+Me: Please explain a bit further.
+
+Facilyn: Think about what energizes you and inspires you. Focus on what brings out your best.
+
+Facilyn: Challenge and growth aren't about stress or difficulty for their own sake — they're about engaging your capabilities fully and expanding them.
+
+A cleaning robot methodically works its way around the teahouse, pausing to contemplate a particularly stubborn tea stain with what appears to be genuine philosophical concern.
+
+- #challenge_aspects
+
+# Challenge - All
+
+@qolc_future_generations
+title: Stewardship and offering hope to future generations
+on-arrival: qol-challenge = "Stewardship and offering hope to future generations"
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: Stewardship and offering hope to future generations.
+
+@qolc_curious_life
+title: Work that keeps us curious and demands patience and pushing boundaries.
+on-arrival: qol-challenge = "Work that keeps us curious and demands patience and pushing boundaries."
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: Work that sparks curiosity and demands pushing boundaries.
+
+# Challenge - Individual
+
+@qolc_ind_growth
+title: Cultivating patience and fostering personal development.
+view-if: part-of = "individual"
+on-arrival: qol-challenge = "Cultivating patience and fostering personal development."
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: Cultivating patience and fostering personal development.
+
+# Challenge - Group
+
+@qolc_experimentation_space
+title: A fearless space for experimentation and being humbled by nature's wisdom
+view-if: part-of = "group"
+on-arrival: qol-challenge = "A fearless space for experimentation and being humbled by nature's wisdom"
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: A fearless space for experimentation and being humbled by nature's wisdom.
+
+# Challenge - Organisation
+
+@qolc_clarity_creation
+title: Creating clarity and direction where none existed before
+view-if: part-of = "org"
+on-arrival: qol-challenge = "Creating clarity and direction where none existed before"
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: Creating clarity and direction where none existed before.
+
+@qolc_freedom_flow
+title: The exhilaration of autonomy, where freedom and responsibility merge into creative flow
+view-if: part-of = "org"
+on-arrival: qol-challenge = "The exhilaration of autonomy, where freedom and responsibility merge into creative flow"
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: The exhilaration of autonomy, where freedom and responsibility merge into creative flow.
+
+# Growth
+
+@qolg_growth
+title: Growth
+
+Facilyn: Perfect. And should your social environment be tolerant of what stimulates your resourcefulness and allows you to reach your full potential? 
+
+Facilyn: What do you want to be free to do in terms of inner growth?
+
+- #growth_aspects
+
+@qolg_explanation
+title: Please explain a bit further
+max-visits: 1
+order: 10
+tags: growth_aspects
+
+Me: Please explain a bit further.
+
+Facilyn: Think about what you need to feel fulfilled. What helps you evolve as a person or a community? This is about the freedom to pursue what gives your life deeper meaning.
+
+- #growth_aspects
+
+# Growth - All
+
+@qolg_learning
+title: Expanding horizons through continuous learning and discovery
+on-arrival: qol-growth = "Expanding horizons through continuous learning and discovery"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Expanding horizons through continuous learning and discovery.
+
+@qolg_traditions
+title: Preserving and celebrating our shared traditions
+on-arrival: qol-growth = "Preserving and celebrating our shared traditions"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Preserving and celebrating our shared traditions.
+
+@qolg_balance
+title: Finding balance and harmony between work, life, and nature
+on-arrival: qol-growth = "Finding balance and harmony between work, life, and nature"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Finding balance and harmony between work, life, and nature.
+
+# Growth - Individual
+
+@qolg_spiritual
+title: Spiritual or religious beliefs providing guidance and meaning
+view-if: part-of = "individual"
+on-arrival: qol-growth = "Spiritual or religious beliefs providing guidance and meaning"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Spiritual or religious beliefs providing guidance and meaning.
+
+@qolg_resilience
+title: Cultivating inner peace and emotional resilience
+view-if: part-of = "individual"
+on-arrival: qol-growth = "Cultivating inner peace and emotional resilience"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Cultivating inner peace and emotional resilience.
+
+# Growth - Group
+
+@qolg_integrity
+title: Free to act with integrity and according to our convictions
+view-if: part-of = "group"
+on-arrival: qol-growth = "Free to act with integrity and according to our convictions"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Free to act with integrity and according to our convictions.
+
+@qolg_connection
+title: Deepening connection and trust within our community
+view-if: part-of = "group"
+on-arrival: qol-growth = "Deepening connection and trust within our community"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Deepening connection and trust within our community.
+
+@qolg_mentorship
+title: Sharing wisdom and mentoring one another
+view-if: part-of = "group"
+on-arrival: qol-growth = "Sharing wisdom and mentoring one another"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Sharing wisdom and mentoring one another.
+
+# Growth - Organisation
+
+@qolg_evolution
+title: Evolving our collective purpose to serve a greater good
+view-if: part-of = "org"
+on-arrival: qol-growth = "Evolving our collective purpose to serve a greater good"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Evolving our collective purpose to serve a greater good.
+
+@qolg_innovation
+title: Fostering a culture of innovation and continuous improvement
+view-if: part-of = "org"
+on-arrival: qol-growth = "Fostering a culture of innovation and continuous improvement"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Fostering a culture of innovation and continuous improvement.

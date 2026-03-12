@@ -25,7 +25,7 @@ Facilyn: I wasn’t entirely sure you would.
 
 @took_me_a_while
 title: Took me a while to find this place
-view-if: player = "me"
+view-if: player = "one"
 max-visits: 1
 tags: what_up_to
 
@@ -43,7 +43,7 @@ She gestures to the seat across from her.
 
 @took_us_a_while
 title: Took us a while to find this place
-view-if: player != "me"
+view-if: player != "one"
 max-visits: 1
 tags: what_up_to
 

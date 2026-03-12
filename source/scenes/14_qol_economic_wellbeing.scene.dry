@@ -91,7 +91,7 @@ Me: A balanced life with leisure, cultural pursuits, and time for family and fri
 
 @qolewb_family_friends
 title: Quality time with family and friends, plus education and leisure for cultural pursuits
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-balance = "Quality time with family and friends, plus education and leisure for cultural pursuits"
 go-to: 15_qol_relationships
 tags: balance_aspects
@@ -100,7 +100,7 @@ Me: Quality time with family and friends, plus education and leisure for cultura
 
 @qolew_travel_and_experience
 title: Resources for food, clean water, health and security, plus travel and life experiences
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-economic = "Resources for food, clean water, health and security, plus travel and life experiences"
 go-to: 15_qol_relationships
 tags: economic_aspects
@@ -109,7 +109,7 @@ Me: Resources to travel and experience the world.
 
 @qolewb_cultural_pursuits
 title: Cultural and artistic pursuits, supported by education and time for family and friends
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-balance = "Cultural and artistic pursuits, supported by education and time for family and friends"
 go-to: 15_qol_relationships
 tags: balance_aspects

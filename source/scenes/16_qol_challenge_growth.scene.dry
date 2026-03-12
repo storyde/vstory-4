@@ -45,7 +45,7 @@ Me: Work that sparks curiosity and demands pushing boundaries.
 
 @qolc_ind_growth
 title: Cultivating patience and fostering personal development.
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-challenge = "Cultivating patience and fostering personal development."
 go-to: qolg_growth
 tags: challenge_aspects
@@ -137,7 +137,7 @@ Me: Finding balance and harmony between work, life, and nature.
 
 @qolg_spiritual
 title: Spiritual or religious beliefs providing guidance and meaning
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-growth = "Spiritual or religious beliefs providing guidance and meaning"
 go-to: 17_qol_purpose
 tags: growth_aspects
@@ -146,7 +146,7 @@ Me: Spiritual or religious beliefs providing guidance and meaning.
 
 @qolg_resilience
 title: Cultivating inner peace and emotional resilience
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-growth = "Cultivating inner peace and emotional resilience"
 go-to: 17_qol_purpose
 tags: growth_aspects

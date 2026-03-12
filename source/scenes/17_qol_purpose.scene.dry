@@ -26,7 +26,7 @@ Facilyn: Ask yourself: What are we about?
 
 @qolp_ind_learning
 title: Continuous learning, growth and development
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-purpose = "continuous learning, growth and development"
 go-to: 18_qol_contribution
 tags: qol_purpose
@@ -35,7 +35,7 @@ Me: Continuous learning, growth and development.
 
 @qolp_ind_health
 title: Holistic health, vitality and wellbeing
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-purpose = "holistic health, vitality and wellbeing"
 go-to: 18_qol_contribution
 tags: qol_purpose
@@ -44,7 +44,7 @@ Me: Holistic health, vitality and wellbeing.
 
 @qolp_ind_creativity
 title: Creativity, innovation and meaningful expression
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-purpose = "creativity, innovation and meaningful expression"
 go-to: 18_qol_contribution
 tags: qol_purpose

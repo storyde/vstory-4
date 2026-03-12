@@ -24,7 +24,7 @@ Facilyn: These people are no less important than the decision makers. In fact, t
 
 @rbhm_ind_rural
 title: Friends, neighbours and local community
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: rb-human = "Friends, neighbours and local community"
 go-to: 11_wum_money
 tags: human_rcs
@@ -33,7 +33,7 @@ Me: Friends, neighbours and local community.
 
 @rbhm_ind_urban
 title: Friends, neighbours and work associates
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: rb-human = "Friends, neighbours and work associates"
 go-to: 11_wum_money
 tags: human_rcs
@@ -42,7 +42,7 @@ Me: Friends, neighbours and work associates.
 
 @rbhm_ind_nomad
 title: Fellow travellers and host communities
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: rb-human = "Fellow travellers and host communities"
 go-to: 11_wum_money
 tags: human_rcs

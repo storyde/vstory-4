@@ -1,5 +1,5 @@
 title: Got it
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: progress = 9
 tags: whole_u_mgmt
 new-page: true
@@ -44,7 +44,7 @@ Facilyn: Exclude a real stakeholder, and you end up negotiating with a fire hydr
 
 @dmkrs_me
 title: Just me
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: decision-makers = "Me"
 go-to: 9_wum_rb_physical
 tags: decision_makers
@@ -55,7 +55,7 @@ Facilyn: Perfect. Then we treat you as the only decision maker.
 
 @dmkrs_include_more
 title: Include more people
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: decision-makers = "Me and people I live or decide with"; player = "group"
 go-to: 9_wum_rb_physical
 tags: decision_makers

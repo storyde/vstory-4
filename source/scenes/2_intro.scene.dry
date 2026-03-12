@@ -20,7 +20,7 @@ You are here:
 @by_yourself
 title: On my own 
 subtitle: Currently without company
-on-arrival: player = "me"
+on-arrival: player = "one"
 go-to: 3_harbour
 tags: here_with
 

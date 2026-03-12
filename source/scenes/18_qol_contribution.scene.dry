@@ -37,7 +37,7 @@ Me: A collaborative, supportive and inspiring partner.
 
 @qolas_ind_balanced
 title: A balanced, joyful and fulfilled person
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-aspiration = "a balanced, joyful and fulfilled person"
 go-to: qolac_accomplish
 tags: qol_aspiration
@@ -46,7 +46,7 @@ Me: A balanced, joyful and fulfilled person.
 
 @qolas_ind_learner
 title: A curious, lifelong learner and explorer
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-aspiration = "a curious, lifelong learner and explorer"
 go-to: qolac_accomplish
 tags: qol_aspiration
@@ -126,7 +126,7 @@ Me: Empower others to reach their full potential.
 
 @qolac_ind_meaning
 title: Live a life of deep meaning and joy
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-accomplish = "live a life of deep meaning and joy"
 go-to: 19_qol_textarea
 tags: qol_accomplish
@@ -135,7 +135,7 @@ Me: Live a life of deep meaning and joy.
 
 @qolac_ind_potential
 title: Realize and express my unique potential
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: qol-accomplish = "realize and express my unique potential"
 go-to: 19_qol_textarea
 tags: qol_accomplish

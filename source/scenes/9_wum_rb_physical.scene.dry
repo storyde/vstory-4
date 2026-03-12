@@ -2,11 +2,11 @@ title: Physical Resources
 subtitle: Major Physical Assets Available to You
 on-arrival: progress = 10
 
-[? if player != "me" : Facilyn: This framework requires everyone you just named to be involved in this conversation. So, this would normally be the moment you make sure everybody joins in. ?]
+[? if player != "one" : Facilyn: This framework requires everyone you just named to be involved in this conversation. So, this would normally be the moment you make sure everybody joins in. ?]
 
 [? if sector = "policymaking" : Facilyn: And if your organisation is involved in governing and policymaking, you would also make sure to invite citizens from various backgrounds. Otherwise, you risk that your holistic context we are about to create reflects only the priorities of your organisation or of the institutions you collaborate with, instead of reflecting the interests of the people you govern. ?]
 
-[? if player != "me" : Facilyn: But given the approaching storm outside, we'll have to do that next time. ?]
+[? if player != "one" : Facilyn: But given the approaching storm outside, we'll have to do that next time. ?]
 
 Facilyn: Now we identify your major physical resources from which you can generate revenue or derive support. These resources need to be available to you, but you don't need to own them.
 
@@ -32,7 +32,7 @@ A logistics robot rolls by, diligently cataloguing every object in sight — inc
 
 @rbph_ind_rural
 title: Rural home, land, vehicle and tools
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: rb-physical = "Rural home, land, vehicle and tools"
 go-to: 10_wum_rb_human
 tags: physical_rcs
@@ -41,7 +41,7 @@ Me: Rural home, land, vehicle and tools
 
 @rbph_ind_urban
 title: City apartment, bicycle and digital equipment
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: rb-physical = "City apartment, bicycle and digital equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
@@ -50,7 +50,7 @@ Me: City apartment, bicycle and digital equipment
 
 @rbph_ind_nomad
 title: Mobile home and portable gear
-view-if: player = "me"
+view-if: player = "one"
 on-arrival: rb-physical = "Mobile home and portable gear"
 go-to: 10_wum_rb_human
 tags: physical_rcs

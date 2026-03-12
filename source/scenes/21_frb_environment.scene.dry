@@ -38,7 +38,7 @@ A gardening robot tends to the plants outside the teahouse, carefully measuring 
 @frbe_detailed_scientific
 title: Maximized water and mineral cycles, optimized energy flow, and rich biodiversity
 on-arrival: frb-environment = "Maximized water and mineral cycles, optimized energy flow, and rich biodiversity"
-go-to: 21_holtext
+go-to: 22_holtext
 tags: environment_aspects
 
 Me: Maximized water and mineral cycles, optimized energy flow, and rich biodiversity.
@@ -46,7 +46,7 @@ Me: Maximized water and mineral cycles, optimized energy flow, and rich biodiver
 @frbe_descriptive_visionary
 title: Healthy, biologically diverse land with covered soils and clear, perennial streams
 on-arrival: frb-environment = "Healthy, biologically diverse land with covered soils and clear, perennial streams"
-go-to: 21_holtext
+go-to: 22_holtext
 tags: environment_aspects
 
 Me: Healthy, biologically diverse land with covered soils and clear, perennial streams.
@@ -54,7 +54,7 @@ Me: Healthy, biologically diverse land with covered soils and clear, perennial s
 @frbe_simple_grounded
 title: Stable, productive surroundings with clean water and covered, fertile soils
 on-arrival: frb-environment = "Stable, productive surroundings with clean water and covered, fertile soils"
-go-to: 21_holtext
+go-to: 22_holtext
 tags: environment_aspects
 
 Me: Stable, productive surroundings with clean water and covered, fertile soils.

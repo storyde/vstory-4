@@ -79,7 +79,7 @@ Facilyn: Think about the future you want — [+ frb-environment +]. Does this ac
 @fqsus_environment_toward
 title: It leads toward our future resource base
 on-arrival: sus-environment = "Passed"
-go-to: 29_fq_gut_feel; jumpScene if fltr-result = "visited"
+go-to: 30_fq_gut_feel; jumpScene if fltr-result = "visited"
 tags: sus_environment
 
 Me: It leads toward our future resource base.
@@ -89,7 +89,7 @@ Facilyn: Great. You are building the environmental conditions necessary for your
 @fqsus_environment_away
 title: It leads away from our future resource base
 on-arrival: sus-environment = "Failed"
-go-to: 29_fq_gut_feel; jumpScene if fltr-result = "visited"
+go-to: 30_fq_gut_feel; jumpScene if fltr-result = "visited"
 tags: sus_environment
 
 Me: It leads away from our future resource base.
@@ -99,7 +99,7 @@ Facilyn: Caution. Degrading your ecosystem processes will eventually limit what 
 @fqsus_environment_skip
 title: Skip environment check
 on-arrival: sus-environment = "Skipped"
-go-to: 29_fq_gut_feel; jumpScene if fltr-result = "visited"
+go-to: 30_fq_gut_feel; jumpScene if fltr-result = "visited"
 tags: sus_environment
 
 Me: Skip environment check.

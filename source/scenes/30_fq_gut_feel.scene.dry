@@ -25,7 +25,7 @@ Facilyn: Even if an action passes all other checks, you might reject it if it do
 @fqgut_pass
 title: It feels right
 on-arrival: fltr-gut = "Passed"
-go-to: 30_fq_result; jumpScene if fltr-result = "visited"
+go-to: 31_fq_result; jumpScene if fltr-result = "visited"
 tags: gut_feel
 
 Me: It feels right.
@@ -35,7 +35,7 @@ Facilyn: Excellent. When analysis and intuition align, you can proceed with conf
 @fqgut_fail
 title: It feels wrong
 on-arrival: fltr-gut = "Failed"
-go-to: 30_fq_result; jumpScene if fltr-result = "visited"
+go-to: 31_fq_result; jumpScene if fltr-result = "visited"
 tags: gut_feel
 
 Me: It feels wrong.
@@ -45,7 +45,7 @@ Facilyn: Trust that feeling. Your intuition often catches what logic misses.
 @fqgut_mixed
 title: I have mixed feelings
 on-arrival: fltr-gut = "Skipped"
-go-to: 30_fq_result; jumpScene if fltr-result = "visited"
+go-to: 31_fq_result; jumpScene if fltr-result = "visited"
 tags: gut_feel
 
 Me: I have mixed feelings.

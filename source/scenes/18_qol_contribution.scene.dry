@@ -101,7 +101,7 @@ Facilyn: "What do we ultimately want to accomplish?"
 @qolac_lasting_impact
 title: Create lasting positive impact for future generations
 on-arrival: qol-accomplish = "create lasting positive impact for future generations"
-go-to: 18_qol_textarea
+go-to: 19_qol_textarea
 tags: qol_accomplish
 
 Me: Create lasting positive impact for future generations.
@@ -109,7 +109,7 @@ Me: Create lasting positive impact for future generations.
 @qolac_regenerate_systems
 title: Regenerate damaged social and ecological systems
 on-arrival: qol-accomplish = "regenerate damaged social and ecological systems"
-go-to: 18_qol_textarea
+go-to: 19_qol_textarea
 tags: qol_accomplish
 
 Me: Regenerate damaged social and ecological systems.
@@ -117,7 +117,7 @@ Me: Regenerate damaged social and ecological systems.
 @qolac_empower_others
 title: Empower others to reach their full potential
 on-arrival: qol-accomplish = "empower others to reach their full potential"
-go-to: 18_qol_textarea
+go-to: 19_qol_textarea
 tags: qol_accomplish
 
 Me: Empower others to reach their full potential.
@@ -128,7 +128,7 @@ Me: Empower others to reach their full potential.
 title: Live a life of deep meaning and joy
 view-if: part-of = "individual"
 on-arrival: qol-accomplish = "live a life of deep meaning and joy"
-go-to: 18_qol_textarea
+go-to: 19_qol_textarea
 tags: qol_accomplish
 
 Me: Live a life of deep meaning and joy.
@@ -137,7 +137,7 @@ Me: Live a life of deep meaning and joy.
 title: Realize and express my unique potential
 view-if: part-of = "individual"
 on-arrival: qol-accomplish = "realize and express my unique potential"
-go-to: 18_qol_textarea
+go-to: 19_qol_textarea
 tags: qol_accomplish
 
 Me: Realize and express my unique potential.
@@ -148,7 +148,7 @@ Me: Realize and express my unique potential.
 title: Build a resilient, supportive and vibrant community
 view-if: part-of = "group"
 on-arrival: qol-accomplish = "build a resilient, supportive and vibrant community"
-go-to: 18_qol_textarea
+go-to: 19_qol_textarea
 tags: qol_accomplish
 
 Me: Build a resilient, supportive and vibrant community.
@@ -157,7 +157,7 @@ Me: Build a resilient, supportive and vibrant community.
 title: Bridge divides and foster deep understanding
 view-if: part-of = "group"
 on-arrival: qol-accomplish = "bridge divides and foster deep understanding"
-go-to: 18_qol_textarea
+go-to: 19_qol_textarea
 tags: qol_accomplish
 
 Me: Bridge divides and foster deep understanding.
@@ -168,7 +168,7 @@ Me: Bridge divides and foster deep understanding.
 title: Solve meaningful problems that truly matter
 view-if: part-of = "org"
 on-arrival: qol-accomplish = "solve meaningful problems that truly matter"
-go-to: 18_qol_textarea
+go-to: 19_qol_textarea
 tags: qol_accomplish
 
 Me: Solve meaningful problems that truly matter.
@@ -177,7 +177,7 @@ Me: Solve meaningful problems that truly matter.
 title: Lead the way in ethical and responsible innovation
 view-if: part-of = "org"
 on-arrival: qol-accomplish = "lead the way in ethical and responsible innovation"
-go-to: 18_qol_textarea
+go-to: 19_qol_textarea
 tags: qol_accomplish
 
 Me: Lead the way in ethical and responsible innovation.

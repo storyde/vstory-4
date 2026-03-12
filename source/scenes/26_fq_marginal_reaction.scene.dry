@@ -26,7 +26,7 @@ A cargo robot pauses beside a stack of containers, apparently reassessing the co
 @fqmr_pass
 title: It provides the highest return on investment
 on-arrival: fltr-marginal = "Passed"
-go-to: 26_fq_gross_profit; jumpScene if fltr-result = "visited"
+go-to: 27_fq_gross_profit; jumpScene if fltr-result = "visited"
 tags: marginal_reaction
 
 Me: It provides the highest return on investment.
@@ -36,7 +36,7 @@ Facilyn: Excellent. You've identified this as the most efficient use of your res
 @fqmr_fail
 title: It does not provide the highest return on investment
 on-arrival: fltr-marginal = "Failed"
-go-to: 26_fq_gross_profit; jumpScene if fltr-result = "visited"
+go-to: 27_fq_gross_profit; jumpScene if fltr-result = "visited"
 tags: marginal_reaction
 
 Me: It does not provide the highest return on investment.
@@ -46,7 +46,7 @@ Facilyn: An honest evaluation. This suggests you might want to reconsider this a
 @fqmr_skip
 title: Not sure, let's move on
 on-arrival: fltr-marginal = "Skipped"
-go-to: 26_fq_gross_profit; jumpScene if fltr-result = "visited"
+go-to: 27_fq_gross_profit; jumpScene if fltr-result = "visited"
 tags: marginal_reaction
 
 Me: Not sure, let's move on.

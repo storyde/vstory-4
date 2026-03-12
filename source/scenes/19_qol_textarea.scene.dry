@@ -13,4 +13,4 @@ Facilyn: Make sure to not write down any specific solution, but only how you wan
 
 [? if part-of != "individual" : Paper: <h1>Quality of Life:</h1><br>**Economic well-being:** [+ qol-economic +] <br>**Have time for:** [+ qol-balance +] <br>**Relationships:** [+ qol-relationships +] <br>**Challenge:** [+ qol-challenge +] <br>**Growth:** [+ qol-growth +] <br>**We are about:** [+ qol-purpose +] <br>**We want to be:** [+ qol-aspiration +] <br>**We ultimately want to accomplish:** [+ qol-accomplish +] <br> <br> <textarea id="textarea" placeholder="Add here anything you are missing." oninput="window.dendryUI && window.dendryUI.dendryEngine && (window.dendryUI.dendryEngine.state.qualities.textarea = this.value);"></textarea> ?]
 
-- @19_frb_people
+- @20_frb_people

@@ -25,7 +25,7 @@ Facilyn: You are selecting the best enterprise or combination of enterprises to 
 @fqgp_pass
 title: It contributes the most to covering overheads
 on-arrival: fltr-profit = "Passed"
-go-to: 27_fq_energy_money; jumpScene if fltr-result = "visited"
+go-to: 28_fq_energy_money; jumpScene if fltr-result = "visited"
 tags: gross_profit
 
 Me: It contributes the most to covering overheads.
@@ -35,7 +35,7 @@ Facilyn: Excellent. You've identified this as a high-performing enterprise that 
 @fqgp_combination
 title: It is part of a good combination of enterprises
 on-arrival: fltr-profit = "Passed"
-go-to: 27_fq_energy_money; jumpScene if fltr-result = "visited"
+go-to: 28_fq_energy_money; jumpScene if fltr-result = "visited"
 tags: gross_profit
 
 Me: It is part of a good combination of enterprises.
@@ -45,7 +45,7 @@ Facilyn: Good. Sometimes a mix of enterprises creates the best stability and pro
 @fqgp_fail
 title: It contributes little to covering overheads
 on-arrival: fltr-profit = "Failed"
-go-to: 27_fq_energy_money; jumpScene if fltr-result = "visited"
+go-to: 28_fq_energy_money; jumpScene if fltr-result = "visited"
 tags: gross_profit
 
 Me: It contributes little to covering overheads.
@@ -55,7 +55,7 @@ Facilyn: You may want to reconsider if this is the best use of your resources, o
 @fqgp_skip
 title: Not sure, let's move on
 on-arrival: fltr-profit = "Skipped"
-go-to: 27_fq_energy_money; jumpScene if fltr-result = "visited"
+go-to: 28_fq_energy_money; jumpScene if fltr-result = "visited"
 tags: gross_profit
 
 Me: Not sure, let's move on.

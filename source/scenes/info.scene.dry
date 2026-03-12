@@ -17,7 +17,6 @@ new-page: true
 
 [? if progress > 8 : <details><summary>Decision makers</summary><p>Anyone who makes day-to-day decisions, carries them out, or has veto power over them. Being inclusive prevents hidden constraints later.</p></details> ?]
 
-
 [? if progress > 11 : <details><summary>Resource base</summary><p>Everything you rely on to support your quality of life and plans. It includes physical resources (land, buildings, equipment) and human resources (people, partners, customers, neighbours, communities).</p></details> ?]
 
 [? if progress > 26 : <details><summary>Holistic context</summary><p>Your Holistic Context is your shared “north star” for decision-making. It describes:<br> • The quality of life you want<br> • The future resource base needed to sustain it</p></details> ?]

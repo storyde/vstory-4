@@ -102,9 +102,7 @@ unavailable-subtitle: You don't know the way yet
 choose-if: know-way = 1 
 tags: harbour, quay
 
-You walk along the quay. With every step, the shouts and engine noises grow quieter. 
-
-You reach a long pier with a small lighthouse at the end of it, its beam lost over the water. 
+You walk along the quay and reach a long pier with a small lighthouse at the end of it, its beam lost over the water. 
 
 At the start of the pier, an old warehouse rises up. 
 
@@ -130,7 +128,5 @@ It's display flickers:
 RoboDisplay: `Thank you!`
 
 The drone lifts off, circling briefly before palling again with the birds. 
-
-Something about its behaviour makes you smile...
 
 - #th_arrival

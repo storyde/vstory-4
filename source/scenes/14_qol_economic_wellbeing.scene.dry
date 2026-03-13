@@ -19,14 +19,6 @@ tags: economic_aspects
 
 Me: Nourishing food, clean water, warm clothing, safe shelter, good health and security
 
-@qolew_economic_security
-title: Reliable food, clean water, safe shelter, good health and security
-on-arrival: qol-economic = "Reliable food, clean water, safe shelter, good health and security"
-go-to: qolewb_balance
-tags: economic_aspects
-
-Me: Reliable food, clean water, safe shelter, good health and security
-
 @qolew_comfortable_surroundings
 title: A comfortable home, secure health care and steady access to food, water, clothing and safety
 on-arrival: qol-economic = "a comfortable home, secure health care and steady access to food, water, clothing and safety"
@@ -71,13 +63,13 @@ Facilyn: Name what money makes possible. Freedom? Time? The ability to help some
 
 # Balance - All
 
-@qolewb_health_education
-title: Good health, education and time for family, friends and community
-on-arrival: qol-balance = "good health, education and time for family, friends and community"
+@qolewb_education_community
+title: Good education and time for family, friends and community
+on-arrival: qol-balance = "good education and time for family, friends and community"
 go-to: 15_qol_relationships
 tags: balance_aspects
 
-Me: Good health, education and time for family, friends and community
+Me: Good education and time for family, friends and community
 
 @qolewb_balance_leisure
 title: Room for rest, meaningful leisure and time for family and friends

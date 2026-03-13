@@ -7,7 +7,7 @@ Me: Ok
 
 Facilyn: Let’s start with essential human needs that are met by economic well-being like the quality of your food and water or your shelter.
 
-Facilyn: Please list, which aspects of economic well-being improve your quality of life. 
+Facilyn: Which aspects of economic well-being improve your quality of life?
 
 - #economic_aspects
 
@@ -51,7 +51,7 @@ on-arrival: progress = 16
 
 Facilyn: Economic well-being also enables you to have time for family and friends or for cultural and other pursuits. 
 
-Facilyn: Wich aspects resonate most with you?
+Facilyn: Which aspects resonate most with you?
 
 - #balance_aspects
 
@@ -65,7 +65,7 @@ Me: I am not sure...
 
 Facilyn: Take your time. Remember, you're describing how you want your economic life to feel and function, not specific dollar amounts or possessions.
 
-Facilyn: Name what you gain from having money. Freedom? The ability to help others? That underlying benefit is what belongs in your Quality of Life Statement.
+Facilyn: Name what money makes possible. Freedom? Time? The ability to help someone else? That underlying benefit is what belongs in your Quality of Life Statement.
 
 - #balance_aspects
 

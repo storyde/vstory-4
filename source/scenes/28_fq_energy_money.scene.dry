@@ -2,7 +2,7 @@ title: Energy/Money Source Check
 subtitle: Sustainable Resource Management
 on-arrival: progress = 35
 
-Facilyn: The next check applies to both energy and money and has two parts. 
+Facilyn: The next check applies to both energy and money. It has two parts.
 
 Facilyn: The first part examines the source:
 
@@ -20,7 +20,7 @@ tags: em_source
 
 Me: I need help understanding this check.
 
-Facilyn: Is it unlimited/renewable/internal (appropriate) or limited/polluting/external with strings attached (inappropriate)?
+Facilyn: Is the source renewable or internal — or is it limited, polluting, or external with strings attached?
 
 - #em_source
 
@@ -72,7 +72,7 @@ tags: em_use
 
 Me: I need help understanding this check.
 
-Facilyn: Is it for infrastructure/cyclical (constructive) or merely consumptive/addictive (potentially destructive)?
+Facilyn: Is the use constructive — building capacity, keeping things cycling — or is it mostly consumptive, draining, or addictive?
 
 - #em_use
 

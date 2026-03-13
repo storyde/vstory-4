@@ -2,11 +2,11 @@ title: Sustainability Check
 subtitle: Long-term Thinking
 on-arrival: progress = 37
 
-Facilyn: The sustainability check asks you about the long-term social and environmental consequences of your actions:
+Facilyn: The sustainability check looks at long-term social and environmental consequences.
 
 Facilyn: "If we take this action will it lead toward or away from the future resource base described in our holistic context?"
 
-Facilyn: First, let’s examine the social dimension — how your **Behaviour** shapes trust and relationships.
+Facilyn: First: the social dimension — how your **Behaviour** shapes trust and relationships.
 
 - #sus_behavior
 
@@ -20,7 +20,7 @@ tags: sus_behavior
 
 Me: I need help understanding this check.
 
-Facilyn: Consider how your actions affect people's perceptions. If you have described yourselves as [+ frb-people +], do your actions reflect this?
+Facilyn: Think about how your actions land with other people. If you described yourselves as [+ frb-people +], do your actions match that?
 
 - #sus_behavior
 
@@ -60,7 +60,7 @@ Facilyn: Be careful. This check almost always applies.
 title: Environment filter
 on-arrival: progress = 38
 
-Facilyn: Now, let's look at the **Environment**. Will this action lead toward or away from the future landscape described in our holistic context?
+Facilyn: Now, the **Environment**. Will this action lead toward or away from the future landscape in your holistic context?
 
 - #sus_environment
 
@@ -72,7 +72,7 @@ tags: sus_environment
 
 Me: I need help understanding this check.
 
-Facilyn: Think about the future you want — [+ frb-environment +]. Does this action improve the functioning of the four ecosystem processes or degrade them?
+Facilyn: Picture the future you want — [+ frb-environment +]. Does this action improve the ecosystem processes, or degrade them?
 
 - #sus_environment
 
@@ -104,4 +104,4 @@ tags: sus_environment
 
 Me: Skip environment check.
 
-Facilyn: Caution. This check applies not only to land managers. 
+Facilyn: Caution. This applies even if you don’t manage land directly.

@@ -2,7 +2,7 @@ title: Purpose
 on-arrival: progress = 20
 go-to: qolp_organisation if player = "org" 
 
-Facilyn: The next question is about purpose. It asks: 
+Facilyn: The next question is about purpose.
 
 Facilyn: "What are we about?"
 
@@ -16,9 +16,11 @@ tags: qol_purpose
 
 Me: What are these questions for?
 
-Facilyn: These three questions help you find meaning and personal relevance in your purpose. The first is about your current identity and focus. The second explores your future aspirations. The third examines your long-term impact.
+Facilyn: These questions help you find personal relevance in what you do. The first is about who you are right now. The next explores your future aspirations. The last is what you want to accomplish.
 
 Facilyn: Ask yourself: What are we about?
+
+She turns the cup in her hands, watching the last swirl of steam fade.
 
 - #qol_purpose
 

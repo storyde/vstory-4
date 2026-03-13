@@ -2,7 +2,7 @@ title: Cause and Effect Check
 subtitle: Addressing Root Causes
 on-arrival: progress = 28
 
-Facilyn: The first context check helps you avoid treating symptoms while ignoring underlying causes. It asks:
+Facilyn: The first check helps you avoid treating symptoms while the real cause keeps doing its work.
 
 Facilyn: "Does this action address the root cause of the problem?"
 
@@ -16,11 +16,13 @@ tags: cause_effect
 
 Me: I need help distinguishing cause from symptom.
 
-Facilyn: Think of it this way — symptoms are what you observe or experience, while causes are what creates those symptoms. For example, if robots keep malfunctioning, the symptom is broken robots, but the cause might be poor maintenance or inadequate training.
+Facilyn: Symptoms are what you notice. Causes are what produce them.
 
-Facilyn: After finding a cause, you might need to ask yourself multiple times: "Well, and what is the cause of that?" to really get to the root of the problem.
+Facilyn: If machines keep failing, the symptom is “broken machines.” The cause might be maintenance, training, worn parts — or a workflow that makes careful work impossible.
 
-A repair robot wheels past the teahouse, methodically fixing a street lamp that keeps flickering, apparently unaware that the real problem is the faulty electrical connection three blocks away.
+Facilyn: Once you spot a cause, ask again: “And what causes that?” A few rounds usually gets you closer to the root.
+
+Someone outside tightens a loose sign bracket. The sign stops rattling for a moment — then the wind finds the next weak screw.
 
 - #cause_effect
 
@@ -32,7 +34,7 @@ tags: cause_effect
 
 Me: Yes, it addresses the root cause.
 
-Facilyn: Excellent. You've identified that your action targets the fundamental issue, not just its symptoms. This gives your decision a solid foundation.
+Facilyn: Good. You’re aiming at the root, not just the visible symptoms.
 
 @fqce_fail
 title: No, it only treats symptoms
@@ -42,7 +44,7 @@ tags: cause_effect
 
 Me: No, it only treats symptoms.
 
-Facilyn: An important realization. Treating symptoms might provide temporary relief, but the underlying problem will likely resurface. Consider how you might address the deeper cause instead.
+Facilyn: That matters. Treating symptoms can buy time, but the problem usually returns. Consider what would address the deeper cause.
 
 @fqce_skip
 title: Not sure, let me review this check later
@@ -52,4 +54,4 @@ tags: cause_effect
 
 Me: Not sure, let me review this check later.
 
-Facilyn: If you finish the checks and still lack a clear answer, circle back here. Revisiting skipped checks often provides the missing piece of the puzzle. 
+Facilyn: If you reach the end and still don’t have clarity, you can circle back. 

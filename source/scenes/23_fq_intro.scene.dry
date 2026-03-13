@@ -5,7 +5,7 @@ new-page: true
 
 Me: Continue to the Seven Context Checks.
 
-Facilyn: As you manage your life or business, or even an agency, you will develop plans and strategies to achieve your goals or the purpose of your organisation. And you will face many management decisions. 
+Facilyn: In life, in business, in an agency — you’ll make plans, and you’ll face decisions.
 
 Facilyn: What kind of decision would you like to work through?
 
@@ -19,9 +19,9 @@ tags: example_types
 
 Me: I am not sure.
 
-Facilyn: Think of any situation where you have multiple options and need to choose the best path forward. 
+Facilyn: Think of any situation with two or more options, where you’re trying to choose the best path forward.
 
-A delivery robot pauses outside the teahouse, apparently consulting its internal GPS while a small bird perches curiously on its antenna, creating an unlikely partnership in navigation.
+Outside, a child crouches beside a cleaning robot and quietly places a leaf in its path to see what it will do.
 
 - #example_types
 
@@ -86,7 +86,7 @@ tags: example_types
 
 Me: A business or work-related decision.
 
-Facilyn: An excellent choice! Business touches on economic factors, relationships with stakeholders, resource management, and long-term sustainability.
+Facilyn: An excellent choice. Business brings in money, people, resources — and long-term consequences.
 
 @xmpl_cultural_decision
 title: A cultural or creative decision

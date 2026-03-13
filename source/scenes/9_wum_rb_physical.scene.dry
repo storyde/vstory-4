@@ -2,13 +2,13 @@ title: Physical Resources
 subtitle: Major Physical Assets Available to You
 on-arrival: progress = 10
 
-[? if player != "one" : Facilyn: This framework requires everyone you just named to be involved in this conversation. So, this would normally be the moment you make sure everybody joins in. ?]
+[? if player != "one" : Facilyn: This framework works best when everyone you just named is in the room. Normally, this is the moment you’d call them over. ?]
 
-[? if sector = "policymaking" : Facilyn: And if your organisation is involved in governing and policymaking, you would also make sure to invite citizens from various backgrounds. Otherwise, you risk that your holistic context we are about to create reflects only the priorities of your organisation or of the institutions you collaborate with, instead of reflecting the interests of the people you govern. ?]
+[? if sector = "policymaking" : Facilyn: And if you’re governing, you’d also invite citizens from different backgrounds. Otherwise this context can end up reflecting your institution’s priorities — not the people you serve. ?]
 
 [? if player != "one" : Facilyn: But given the approaching storm outside, we'll have to do that next time. ?]
 
-Facilyn: Now we identify your major physical resources from which you can generate revenue or derive support. These resources need to be available to you, but you don't need to own them.
+Facilyn: Now we list your major physical resources — the assets you can use to generate income or support. They just need to be available to you. You don’t have to own them.
 
 - #physical_rcs
 
@@ -20,11 +20,11 @@ tags: physical_rcs
 
 Me: Why identify physical resources?
 
-Facilyn: Physical resources form the foundation of your operations. They represent your capacity to deliver services, produce goods, or create value. Understanding, what physical assets are available, helps you make better management decisions about how to use them effectively.
+Facilyn: Physical resources are the foundation of what you can actually do. They’re your capacity to deliver services, produce goods, or create value. Knowing what’s available helps you make clearer decisions about how to use it.
 
-Facilyn: You may later decide to sell some of the assets you own, so you only need a general reminder of it.
+Facilyn: Later, you might even decide to sell something. For now, you just need a clear reminder of what’s in reach.
 
-A logistics robot rolls by, diligently cataloguing every object in sight — including a confused pigeon, now officially classified as "city’s air mail transport (unpaid intern)". 
+Outside, a dock clerk walks past with a clipboard, counting mooring posts like they might move when no one’s looking.
 
 - #physical_rcs
 

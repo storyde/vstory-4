@@ -3,13 +3,15 @@ subtitle: Identifying Vulnerabilities
 on-arrival: progress = 29
 go-to: social_weak_link
 
-Facilyn: We all know, that a chain is only as strong as its weakest link. The same applies to your decisions. Therefore, we use weak link checks to help you identify vulnerabilities. 
+Facilyn: A chain is only as strong as its weakest link. The same goes for decisions.
+
+Facilyn: These next checks help you find the vulnerability that could undo everything else.
 
 @social_weak_link
 title: Social Weak Link — Relationships
 on-arrival: progress = 30
 
-Facilyn: The social weak link check reminds you to address a potential conflict in advance:
+Facilyn: The social weak link check helps you spot conflict early:
 
 Facilyn: "Could this action, due to prevailing attitudes or beliefs, create a weak link between us and those whose support we need?" 
 
@@ -19,7 +21,7 @@ Facilyn: "Could this action, due to prevailing attitudes or beliefs, create a we
 title: Biological Weak Link — Organisms
 on-arrival: progress = 31
 
-Facilyn: The biological weak link check is about addressing the greatest vulnerability when dealing with populations of plant or animal organisms:
+Facilyn: The biological weak link check looks for the greatest vulnerability when you’re dealing with plant or animal populations:
 
 Facilyn: "Does this action address the weakest point in the life cycle of this organism?"
 
@@ -29,7 +31,7 @@ Facilyn: "Does this action address the weakest point in the life cycle of this o
 title: Financial Weak Link — Production
 on-arrival: progress = 32
 
-Facilyn: The financial weak link check is about three areas of production: <br>resource conversion, <br>product conversion, <br>and marketing (or money conversion). <br>It asks:
+Facilyn: The financial weak link check looks at three areas of production: <br>resource conversion, <br>product conversion, <br>and marketing (or money conversion). <br>It asks:
 
 Facilyn: "Does this action address the weakest link in the chain of production?"
 
@@ -43,9 +45,11 @@ tags: weak_links
 
 Me: I need more clarification on weak links.
 
-Facilyn: If ignored, weak links lead to repeated setbacks or failure. Social weak links involve resistance from people whose support you need. Biological weak links are critical when managing land, while financial weak links identify the bottleneck in your production chain.
+Facilyn: If you ignore a weak link, you get repeated setbacks — or quiet failure.
 
-A security robot patrols the street, diligently checking every door handle while completely missing the open window on the first floor — a perfect example of missing the real weak link.
+Facilyn: Social weak links are people whose support you need, but whose attitudes might turn against you. Biological weak links are critical points in a life cycle. Financial weak links are bottlenecks in how value moves through your work.
+
+A security robot stops at the door, checks the lock, then points up at an open upstairs window with a look that says, “Really?”
 
 # Social Weak Link 
 

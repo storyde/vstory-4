@@ -1,13 +1,13 @@
 title: Add what you are missing
 on-arrival: progress = 23
 
-Facilyn: Excellent. We have captured your Quality of life in simple phrases. 
+Facilyn: Excellent. We’ve captured your quality of life in simple phrases.
 
-Facilyn: The key to your Quality of Life Statement is, that you have total agreement with everyone involved and that it is meaningfull to you. 
+Facilyn: The key is that everyone involved agrees — and that it feels meaningful to you.
 
-Facilyn: If there is anything in your life deeply important to you, that wasn't named so far, now is the time to add it to your Quality of Life Statement.
+Facilyn: If something deeply important to you hasn’t shown up yet, this is the moment to add it.
 
-Facilyn: Make sure to not write down any specific solution, but only how you want your life to be.
+Facilyn: Try not to write a specific solution. Just describe how you want life to be.
 
 [? if player = "one" : Paper: <h1>Quality of Life:</h1><br>**Economic well-being:** [+ qol-economic +] <br>**Have time for:** [+ qol-balance +] <br>**Relationships:** [+ qol-relationships +] <br>**Challenge:** [+ qol-challenge +] <br>**Growth:** [+ qol-growth +] <br>**I am about:** [+ qol-purpose +] <br>**I want to be:** [+ qol-aspiration +] <br>**I ultimately want to accomplish:** [+ qol-accomplish +] <br> <br> <textarea id="textarea" placeholder="Add here anything you are missing." oninput="window.dendryUI && window.dendryUI.dendryEngine && (window.dendryUI.dendryEngine.state.qualities.textarea = this.value);"></textarea> ?]
 

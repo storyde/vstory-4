@@ -49,8 +49,8 @@ Writing-only pass for:
 - Keep Facilyn’s lines short-to-medium, with pauses and small observations.
 - Convert “workshop” phrasing into conversational beats: question → brief explanation → grounded example.
 - Add physical grounding via teahouse objects (paper, pen, cups, window, coats, tea steam) and harbor details.
-- Replace some robot-only moments with people/kids/weather/harbor activity (still near-future; robots remain background texture).
-- Mention the storm subtly 1–2 times across the full arc (already present in places; add only if needed and in-scene appropriate).
+- Replace some robot-only moments with people/kids/weather/harbor activity (still near-future; robots remain background texture; can be humorous).
+- Mention the storm subtly 3-7 times across the full arc (already present in places; add only if needed and in-scene appropriate).
 
 ### 2) Per-scene revision pass (repeatable checklist)
 For each scene file:
@@ -84,12 +84,10 @@ For each scene file:
    - Make a first pass tightening and grounding Facilyn’s lines.
    - Make a second pass ensuring the cutaway moment is appropriate, varied, and brief.
    - Confirm no structural keys changed (labels, variables, tags, navigation).
-3) Run the Dendry build (Bun-based) to ensure no syntax regressions.
-4) Do a final continuity sweep across scenes:
+3) Do a final continuity sweep across scenes:
    - Facilyn’s tone consistency
-   - Storm mentions count and placement (1–2 total, subtle)
+   - Storm mentions count and placement (3–7 total, subtle)
    - Humor level stays understated
-5) Provide a change summary highlighting what improved (voice, rhythm, grounding) and call out any intentionally untouched technical blocks.
 
 ## Verification
 - Do not build the game, as I will do that manually 

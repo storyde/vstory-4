@@ -7,7 +7,7 @@ Me: Finalize my decision.
 
 Facilyn: You did it. You’ve walked through the whole framework: your whole, your quality of life, your future resource base — and the context checks.
 
-Facilyn: Use it wisely. Share it generously. And remember: every decision is a chance to move toward the future you want.
+Facilyn: Use the framework wisely. Share it generously. And remember: every decision is a chance to move toward the future you want.
 
 Facilyn: In complexity, conditions change. What’s right today can still fail tomorrow.
 
@@ -38,12 +38,4 @@ tags: final_choices
 
 Me: I'd like to start the framework from the beginning.
 
-{! <script>
-if (
-  typeof window !== 'undefined' &&
-  window.location &&
-  typeof window.location.reload === 'function'
-) {
-  setTimeout(window.location.reload.bind(window.location), 100);
-}
-</script> !}
+<meta http-equiv="refresh" content="2">

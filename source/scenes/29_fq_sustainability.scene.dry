@@ -25,22 +25,22 @@ Facilyn: Think about how your actions land with other people. If you described y
 - #sus_behavior
 
 @fqsus_behavior_toward
-title: It leads toward our future resource base
+title: It strengthens relationships with our social resource base
 on-arrival: sus-behaviour = "Passed"
 go-to: fqsus_environment_intro; jumpScene if fltr-result = "visited"
 tags: sus_behavior
 
-Me: It leads toward our future resource base.
+Me: It strengthens relationships with our social resource base.
 
 Facilyn: Excellent. Your behaviour aligns with the values and relationships you want to sustain.
 
 @fqsus_behavior_away
-title: It leads away from our future resource base
+title: It weakens relationships with our social resource base
 on-arrival: sus-behaviour = "Failed"
 go-to: fqsus_environment_intro; jumpScene if fltr-result = "visited"
 tags: sus_behavior
 
-Me: It leads away from our future resource base.
+Me: It weakens relationships with our social resource base.
 
 Facilyn: Be careful. Actions that damage trust or relationships can undermine your future social resource base.
 

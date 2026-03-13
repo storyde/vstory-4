@@ -25,13 +25,13 @@ Facilyn: Ask yourself: What are we about?
 # Purpose - Individual
 
 @qolp_ind_learning
-title: Continuous learning, growth and development
+title: Continuous learning, growth and becoming
 view-if: player = "one"
-on-arrival: qol-purpose = "continuous learning, growth and development"
+on-arrival: qol-purpose = "continuous learning, growth and becoming"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Continuous learning, growth and development.
+Me: Continuous learning, growth and becoming
 
 @qolp_ind_health
 title: Holistic health, vitality and wellbeing
@@ -40,7 +40,7 @@ on-arrival: qol-purpose = "holistic health, vitality and wellbeing"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Holistic health, vitality and wellbeing.
+Me: Holistic health, vitality and wellbeing
 
 @qolp_ind_creativity
 title: Creativity, innovation and meaningful expression
@@ -49,7 +49,7 @@ on-arrival: qol-purpose = "creativity, innovation and meaningful expression"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Creativity, innovation and meaningful expression.
+Me: Creativity, innovation and meaningful expression
 
 # Purpose - Group
 
@@ -60,16 +60,16 @@ on-arrival: qol-purpose = "service, connection and community support"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Service, connection and community support.
+Me: Service, connection and community support
 
 @qolp_grp_sustainability
-title: Environmental stewardship and sustainability
+title: Stewardship of land and lasting sustainability
 view-if: player = "group"
-on-arrival: qol-purpose = "environmental stewardship and sustainability"
+on-arrival: qol-purpose = "stewardship of land and lasting sustainability"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Environmental stewardship and sustainability.
+Me: Stewardship of land and lasting sustainability
 
 @qolp_grp_support
 title: Mutual support, care and solidarity
@@ -78,7 +78,7 @@ on-arrival: qol-purpose = "mutual support, care and solidarity"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Mutual support, care and solidarity.
+Me: Mutual support, care and solidarity
 
 # Purpose - Organisation - Statement of Purpose
 

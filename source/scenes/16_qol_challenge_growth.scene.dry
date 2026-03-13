@@ -26,62 +26,62 @@ A cleaning robot methodically works its way around the teahouse, pausing to cont
 # Challenge - All
 
 @qolc_future_generations
-title: Stewardship and offering hope to future generations
-on-arrival: qol-challenge = "Stewardship and offering hope to future generations"
+title: Stewardship that offers hope to future generations
+on-arrival: qol-challenge = "stewardship that offers hope to future generations"
 go-to: qolg_growth
 tags: challenge_aspects
 
-Me: Stewardship and offering hope to future generations.
+Me: Stewardship that offers hope to future generations
 
 @qolc_curious_life
-title: Work that keeps us curious and demands patience and pushing boundaries.
-on-arrival: qol-challenge = "Work that keeps us curious and demands patience and pushing boundaries."
+title: Work that keeps curiosity alive and asks patience and craft
+on-arrival: qol-challenge = "work that keeps curiosity alive and asks patience and craft"
 go-to: qolg_growth
 tags: challenge_aspects
 
-Me: Work that sparks curiosity and demands pushing boundaries.
+Me: Work that keeps curiosity alive and asks patience and craft
 
 # Challenge - Individual
 
 @qolc_ind_growth
-title: Cultivating patience and fostering personal development.
+title: Cultivating patience and growing into deeper capability
 view-if: player = "one"
-on-arrival: qol-challenge = "Cultivating patience and fostering personal development."
+on-arrival: qol-challenge = "cultivating patience and growing into deeper capability"
 go-to: qolg_growth
 tags: challenge_aspects
 
-Me: Cultivating patience and fostering personal development.
+Me: Cultivating patience and growing into deeper capability
 
 # Challenge - Group
 
 @qolc_experimentation_space
-title: A fearless space for experimentation and being humbled by nature's wisdom
+title: Fearless experimentation and learning from nature's wisdom
 view-if: player = "group"
-on-arrival: qol-challenge = "A fearless space for experimentation and being humbled by nature's wisdom"
+on-arrival: qol-challenge = "fearless experimentation and learning from nature's wisdom"
 go-to: qolg_growth
 tags: challenge_aspects
 
-Me: A fearless space for experimentation and being humbled by nature's wisdom.
+Me: Fearless experimentation and learning from nature's wisdom
 
 # Challenge - Organisation
 
 @qolc_clarity_creation
-title: Creating clarity and direction where none existed before
+title: Bringing clarity and direction where none existed before
 view-if: player = "org"
-on-arrival: qol-challenge = "Creating clarity and direction where none existed before"
+on-arrival: qol-challenge = "bringing clarity and direction where none existed before"
 go-to: qolg_growth
 tags: challenge_aspects
 
-Me: Creating clarity and direction where none existed before.
+Me: Bringing clarity and direction where none existed before
 
 @qolc_freedom_flow
-title: The exhilaration of autonomy, where freedom and responsibility merge into creative flow
+title: The exhilaration of autonomy, where freedom and responsibility meet in creative flow
 view-if: player = "org"
-on-arrival: qol-challenge = "The exhilaration of autonomy, where freedom and responsibility merge into creative flow"
+on-arrival: qol-challenge = "the exhilaration of autonomy, where freedom and responsibility meet in creative flow"
 go-to: qolg_growth
 tags: challenge_aspects
 
-Me: The exhilaration of autonomy, where freedom and responsibility merge into creative flow.
+Me: The exhilaration of autonomy, where freedom and responsibility meet in creative flow
 
 # Growth
 
@@ -110,94 +110,94 @@ Facilyn: Think about what you need to feel fulfilled. What helps you evolve as a
 # Growth - All
 
 @qolg_learning
-title: Expanding horizons through continuous learning and discovery
-on-arrival: qol-growth = "Expanding horizons through continuous learning and discovery"
+title: Expand horizons through learning and discovery
+on-arrival: qol-growth = "expand horizons through learning and discovery"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
-Me: Expanding horizons through continuous learning and discovery.
+Me: Expand horizons through learning and discovery
 
 @qolg_traditions
-title: Preserving and celebrating our shared traditions
-on-arrival: qol-growth = "Preserving and celebrating our shared traditions"
+title: Preserve and celebrate shared traditions
+on-arrival: qol-growth = "preserve and celebrate shared traditions"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
-Me: Preserving and celebrating our shared traditions.
+Me: Preserve and celebrate shared traditions
 
 @qolg_balance
-title: Finding balance and harmony between work, life, and nature
-on-arrival: qol-growth = "Finding balance and harmony between work, life, and nature"
+title: Find balance and harmony between work, life and nature
+on-arrival: qol-growth = "find balance and harmony between work, life and nature"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
-Me: Finding balance and harmony between work, life, and nature.
+Me: Find balance and harmony between work, life and nature
 
 # Growth - Individual
 
 @qolg_spiritual
-title: Spiritual or religious beliefs providing guidance and meaning
+title: Practice spiritual or religious beliefs that offer guidance and meaning
 view-if: player = "one"
-on-arrival: qol-growth = "Spiritual or religious beliefs providing guidance and meaning"
+on-arrival: qol-growth = "practice spiritual or religious beliefs that offer guidance and meaning"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
-Me: Spiritual or religious beliefs providing guidance and meaning.
+Me: Practice spiritual or religious beliefs that offer guidance and meaning
 
 @qolg_resilience
-title: Cultivating inner peace and emotional resilience
+title: Cultivate inner peace and emotional resilience
 view-if: player = "one"
-on-arrival: qol-growth = "Cultivating inner peace and emotional resilience"
+on-arrival: qol-growth = "cultivate inner peace and emotional resilience"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
-Me: Cultivating inner peace and emotional resilience.
+Me: Cultivate inner peace and emotional resilience
 
 # Growth - Group
 
 @qolg_integrity
-title: Free to act with integrity and according to our convictions
+title: Act with integrity and according to conviction
 view-if: player = "group"
-on-arrival: qol-growth = "Free to act with integrity and according to our convictions"
+on-arrival: qol-growth = "act with integrity and according to conviction"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
-Me: Free to act with integrity and according to our convictions.
+Me: Act with integrity and according to conviction
 
 @qolg_connection
-title: Deepening connection and trust within our community
+title: Deepen connection and trust within community
 view-if: player = "group"
-on-arrival: qol-growth = "Deepening connection and trust within our community"
+on-arrival: qol-growth = "deepen connection and trust within community"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
-Me: Deepening connection and trust within our community.
+Me: Deepen connection and trust within community
 
 @qolg_mentorship
-title: Sharing wisdom and mentoring one another
+title: Share wisdom and mentor one another
 view-if: player = "group"
-on-arrival: qol-growth = "Sharing wisdom and mentoring one another"
+on-arrival: qol-growth = "share wisdom and mentor one another"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
-Me: Sharing wisdom and mentoring one another.
+Me: Share wisdom and mentor one another
 
 # Growth - Organisation
 
 @qolg_evolution
-title: Evolving our collective purpose to serve a greater good
+title: Evolve collective purpose in service of a greater good
 view-if: player = "org"
-on-arrival: qol-growth = "Evolving our collective purpose to serve a greater good"
+on-arrival: qol-growth = "evolve collective purpose in service of a greater good"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
-Me: Evolving our collective purpose to serve a greater good.
+Me: Evolve collective purpose in service of a greater good
 
 @qolg_innovation
-title: Fostering a culture of innovation and continuous improvement
+title: Foster a culture of innovation and steady improvement
 view-if: player = "org"
-on-arrival: qol-growth = "Fostering a culture of innovation and continuous improvement"
+on-arrival: qol-growth = "foster a culture of innovation and steady improvement"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
-Me: Fostering a culture of innovation and continuous improvement.
+Me: Foster a culture of innovation and steady improvement

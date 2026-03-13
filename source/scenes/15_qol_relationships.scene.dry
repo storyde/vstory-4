@@ -25,33 +25,33 @@ A harbour-bot and a lighthouse-bot linger at a lonely buoy, trading sea-glass an
 - #relationship_aspects
 
 @qolr_harmony_care
-title: Harmony, care and enjoying our time together
-on-arrival: qol-relationships = "Harmony, care and enjoying our time together"
+title: Harmony, care and ease in one another's presence
+on-arrival: qol-relationships = "harmony, care and ease in one another's presence"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Harmony, care and enjoying our time together.
+Me: Harmony, care and ease in one another's presence
 
 @qolr_open_communication
 title: Open communication, mutual trust and enjoying each other's company
-on-arrival: qol-relationships = "Open communication, mutual trust and enjoying each other's company"
+on-arrival: qol-relationships = "open communication, mutual trust and enjoying each other's company"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Open communication, mutual trust and enjoying each other's company.
+Me: Open communication, mutual trust and enjoying each other's company
 
 @qolr_effective_teamwork
-title: Effective collaboration, mutual understanding and having fun together
-on-arrival: qol-relationships = "Effective collaboration, mutual understanding and having fun together"
+title: Good collaboration, mutual understanding and shared laughter
+on-arrival: qol-relationships = "good collaboration, mutual understanding and shared laughter"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Effective collaboration, mutual understanding and having fun together.
+Me: Good collaboration, mutual understanding and shared laughter
 
 @qolr_remaining_calm
-title: Remaining calm, supporting each other, and mutual respect
-on-arrival: qol-relationships = "Remaining calm, supporting each other, and mutual respect"
+title: Calm support, mutual respect and repair after conflict
+on-arrival: qol-relationships = "calm support, mutual respect and repair after conflict"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Remaining calm, supporting each other, and mutual respect.
+Me: Calm support, mutual respect and repair after conflict

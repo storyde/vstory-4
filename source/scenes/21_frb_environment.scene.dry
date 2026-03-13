@@ -36,25 +36,25 @@ A gardening robot tends to the plants outside the teahouse, carefully measuring 
 - #environment_aspects
 
 @frbe_detailed_scientific
-title: Maximized water and mineral cycles, optimized energy flow, and rich biodiversity
-on-arrival: frb-environment = "Maximized water and mineral cycles, optimized energy flow, and rich biodiversity"
+title: Renewed water and mineral cycles, thriving community dynamics, resilient energy flow and rich biodiversity
+on-arrival: frb-environment = "renewed water and mineral cycles, thriving community dynamics, resilient energy flow and rich biodiversity"
 go-to: 22_holtext
 tags: environment_aspects
 
-Me: Maximized water and mineral cycles, optimized energy flow, and rich biodiversity.
+Me: Renewed water and mineral cycles, thriving community dynamics, resilient energy flow and rich biodiversity
 
 @frbe_descriptive_visionary
-title: Healthy, biologically diverse land with covered soils and clear, perennial streams
-on-arrival: frb-environment = "Healthy, biologically diverse land with covered soils and clear, perennial streams"
+title: Healthy, biologically diverse land with covered soils and clear, perennial streams; strong community dynamics and energy flow through complex webs of life
+on-arrival: frb-environment = "healthy, biologically diverse land with covered soils and clear, perennial streams; strong community dynamics and energy flow through complex webs of life"
 go-to: 22_holtext
 tags: environment_aspects
 
-Me: Healthy, biologically diverse land with covered soils and clear, perennial streams.
+Me: Healthy, biologically diverse land with covered soils and clear, perennial streams; strong community dynamics and energy flow through complex webs of life
 
 @frbe_simple_grounded
-title: Stable, productive surroundings with clean water and covered, fertile soils
-on-arrival: frb-environment = "Stable, productive surroundings with clean water and covered, fertile soils"
+title: Stable, productive surroundings with clean water, covered fertile soils, restored water and mineral cycles, and biodiversity that supports resilient community dynamics
+on-arrival: frb-environment = "stable, productive surroundings with clean water, covered fertile soils, restored water and mineral cycles, and biodiversity that supports resilient community dynamics"
 go-to: 22_holtext
 tags: environment_aspects
 
-Me: Stable, productive surroundings with clean water and covered, fertile soils.
+Me: Stable, productive surroundings with clean water, covered fertile soils, restored water and mineral cycles, and biodiversity that supports resilient community dynamics

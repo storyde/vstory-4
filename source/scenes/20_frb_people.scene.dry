@@ -31,49 +31,49 @@ A maintenance robot methodically polishes the teahouse windows, pausing occasion
 - #behavior_aspects
 
 @frbp_honest_transparent
-title: Honest, responsive and respectful
-on-arrival: frb-people = "Honest, responsive and respectful"
+title: Honest, attentive and respectful
+on-arrival: frb-people = "honest, attentive and respectful"
 go-to: 21_frb_environment
 tags: behavior_aspects
 
-Me: Honest, responsive and respectful.
+Me: Honest, attentive and respectful
 
 @frbp_collaborative_supportive
 title: Collaborative, fair and supportive
-on-arrival: frb-people = "Collaborative, fair and supportive"
+on-arrival: frb-people = "collaborative, fair and supportive"
 go-to: 21_frb_environment
 tags: behavior_aspects
 
-Me: Collaborative, fair and supportive.
+Me: Collaborative, fair and supportive
 
 @frbp_professional_innovative
-title: Professional, innovative and committed
-on-arrival: frb-people = "Professional, innovative and committed"
+title: Steady, skilful and committed
+on-arrival: frb-people = "steady, skilful and committed"
 go-to: 21_frb_environment
 tags: behavior_aspects
 
-Me: Professional, innovative and committed.
+Me: Steady, skilful and committed
 
 @frbp_ethical_responsible
 title: Ethical, responsible and dedicated
-on-arrival: frb-people = "Ethical, responsible and dedicated"
+on-arrival: frb-people = "ethical, responsible and dedicated"
 go-to: 21_frb_environment
 tags: behavior_aspects
 
-Me: Ethical, responsible and dedicated.
+Me: Ethical, responsible and dedicated
 
 @frbp_empathetic_trustworthy
 title: Empathetic, prepared and transparent
-on-arrival: frb-people = "Empathetic, prepared and transparent"
+on-arrival: frb-people = "empathetic, prepared and transparent"
 go-to: 21_frb_environment
 tags: behavior_aspects
 
-Me: Empathetic, prepared and transparent.
+Me: Empathetic, prepared and transparent
 
 @frbp_adaptive_proactive
-title: Adaptive, proactive and open-minded
-on-arrival: frb-people = "Adaptive, proactive and open-minded"
+title: Adaptive, practical and open-minded
+on-arrival: frb-people = "adaptive, practical and open-minded"
 go-to: 21_frb_environment
 tags: behavior_aspects
 
-Me: Adaptive, proactive and open-minded.
+Me: Adaptive, practical and open-minded

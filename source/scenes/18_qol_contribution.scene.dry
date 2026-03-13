@@ -15,7 +15,7 @@ on-arrival: qol-aspiration = "a grounded source of strength and stability"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A grounded source of strength and stability.
+Me: A grounded source of strength and stability
 
 @qolas_positive_force
 title: A positive and transformative force for change
@@ -23,7 +23,7 @@ on-arrival: qol-aspiration = "a positive and transformative force for change"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A positive and transformative force for change.
+Me: A positive and transformative force for change
 
 @qolas_collaborative_partner
 title: A collaborative, supportive and inspiring partner
@@ -31,7 +31,7 @@ on-arrival: qol-aspiration = "a collaborative, supportive and inspiring partner"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A collaborative, supportive and inspiring partner.
+Me: A collaborative, supportive and inspiring partner
 
 # Aspiration - Individual
 
@@ -42,7 +42,7 @@ on-arrival: qol-aspiration = "a balanced, joyful and fulfilled person"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A balanced, joyful and fulfilled person.
+Me: A balanced, joyful and fulfilled person
 
 @qolas_ind_learner
 title: A curious, lifelong learner and explorer
@@ -51,7 +51,7 @@ on-arrival: qol-aspiration = "a curious, lifelong learner and explorer"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A curious, lifelong learner and explorer.
+Me: A curious, lifelong learner and explorer
 
 # Aspiration - Group
 
@@ -62,18 +62,18 @@ on-arrival: qol-aspiration = "a loving, caring and inclusive community"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A loving, caring and inclusive community.
+Me: A loving, caring and inclusive community
 
 # Aspiration - Organisation
 
 @qolas_resilient_adaptive
-title: A resilient, adaptive and thriving organization
+title: A resilient, adaptive and thriving organisation
 view-if: player = "org"
-on-arrival: qol-aspiration = "a resilient, adaptive and thriving organization"
+on-arrival: qol-aspiration = "a resilient, adaptive and thriving organisation"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A resilient, adaptive and thriving organization.
+Me: A resilient, adaptive and thriving organisation
 
 @qolas_innovative_pioneer
 title: An innovative pioneer exploring new frontiers
@@ -82,7 +82,7 @@ on-arrival: qol-aspiration = "an innovative pioneer exploring new frontiers"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: An innovative pioneer exploring new frontiers.
+Me: An innovative pioneer exploring new frontiers
 
 # Accomplishment - What do we ultimately want to accomplish?
 
@@ -99,85 +99,85 @@ Facilyn: "What do we ultimately want to accomplish?"
 # Accomplishment - All
 
 @qolac_lasting_impact
-title: Create lasting positive impact for future generations
-on-arrival: qol-accomplish = "create lasting positive impact for future generations"
+title: Creating lasting positive impact for future generations
+on-arrival: qol-accomplish = "creating lasting positive impact for future generations"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Create lasting positive impact for future generations.
+Me: Creating lasting positive impact for future generations
 
 @qolac_regenerate_systems
-title: Regenerate damaged social and ecological systems
-on-arrival: qol-accomplish = "regenerate damaged social and ecological systems"
+title: Regenerating damaged social and ecological systems
+on-arrival: qol-accomplish = "regenerating damaged social and ecological systems"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Regenerate damaged social and ecological systems.
+Me: Regenerating damaged social and ecological systems
 
 @qolac_empower_others
-title: Empower others to reach their full potential
-on-arrival: qol-accomplish = "empower others to reach their full potential"
+title: Empowering others to reach their full potential
+on-arrival: qol-accomplish = "empowering others to reach their full potential"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Empower others to reach their full potential.
+Me: Empowering others to reach their full potential
 
 # Accomplishment - Individual
 
 @qolac_ind_meaning
-title: Live a life of deep meaning and joy
+title: Living a life of deep meaning and quiet joy
 view-if: player = "one"
-on-arrival: qol-accomplish = "live a life of deep meaning and joy"
+on-arrival: qol-accomplish = "living a life of deep meaning and quiet joy"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Live a life of deep meaning and joy.
+Me: Living a life of deep meaning and quiet joy
 
 @qolac_ind_potential
-title: Realize and express my unique potential
+title: Realising and expressing unique potential
 view-if: player = "one"
-on-arrival: qol-accomplish = "realize and express my unique potential"
+on-arrival: qol-accomplish = "realising and expressing unique potential"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Realize and express my unique potential.
+Me: Realising and expressing unique potential
 
 # Accomplishment - Group
 
 @qolac_grp_resilient
-title: Build a resilient, supportive and vibrant community
+title: Building a resilient, supportive and vibrant community
 view-if: player = "group"
-on-arrival: qol-accomplish = "build a resilient, supportive and vibrant community"
+on-arrival: qol-accomplish = "building a resilient, supportive and vibrant community"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Build a resilient, supportive and vibrant community.
+Me: Building a resilient, supportive and vibrant community
 
 @qolac_bridge_divides
-title: Bridge divides and foster deep understanding
+title: Bridging divides and fostering deep understanding
 view-if: player = "group"
-on-arrival: qol-accomplish = "bridge divides and foster deep understanding"
+on-arrival: qol-accomplish = "bridging divides and fostering deep understanding"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Bridge divides and foster deep understanding.
+Me: Bridging divides and fostering deep understanding
 
 # Accomplishment - Organisation
 
 @qolac_solve_problems
-title: Solve meaningful problems that truly matter
+title: Solving meaningful problems that truly matter
 view-if: player = "org"
-on-arrival: qol-accomplish = "solve meaningful problems that truly matter"
+on-arrival: qol-accomplish = "solving meaningful problems that truly matter"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Solve meaningful problems that truly matter.
+Me: Solving meaningful problems that truly matter
 
 @qolac_org_ethical
-title: Lead the way in ethical and responsible innovation
+title: Leading the way in ethical and responsible innovation
 view-if: player = "org"
-on-arrival: qol-accomplish = "lead the way in ethical and responsible innovation"
+on-arrival: qol-accomplish = "leading the way in ethical and responsible innovation"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Lead the way in ethical and responsible innovation.
+Me: Leading the way in ethical and responsible innovation

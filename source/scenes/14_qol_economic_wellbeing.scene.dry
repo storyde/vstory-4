@@ -20,12 +20,12 @@ tags: economic_aspects
 Me: Nourishing food, clean water, warm clothing, safe shelter, good health and security
 
 @qolew_economic_security
-title: Reliable food, clean water, safe shelter, good health, security and the capacity to help others
-on-arrival: qol-economic = "reliable food, clean water, safe shelter, good health, security and the capacity to help others"
+title: Reliable food, clean water, safe shelter, good health and security
+on-arrival: qol-economic = "Reliable food, clean water, safe shelter, good health and security"
 go-to: qolewb_balance
 tags: economic_aspects
 
-Me: Reliable food, clean water, safe shelter, good health, security and the capacity to help others
+Me: Reliable food, clean water, safe shelter, good health and security
 
 @qolew_comfortable_surroundings
 title: A comfortable home, secure health care and steady access to food, water, clothing and safety
@@ -99,13 +99,13 @@ tags: balance_aspects
 Me: Quality time with family and friends, plus learning and space for culture and leisure
 
 @qolew_travel_and_experience
-title: Resources for food, clean water, health and security, plus travel and lived experience
+title: Resources to travel and see the world
 view-if: player = "one"
-on-arrival: qol-economic = "resources for food, clean water, health and security, plus travel and lived experience"
+on-arrival: qol-economic = "resources to travel and see the world"
 go-to: 15_qol_relationships
-tags: economic_aspects
+tags: balance_aspects
 
-Me: Resources for food, clean water, health and security, plus travel and lived experience
+Me: Resources to travel and see the world
 
 @qolewb_cultural_pursuits
 title: Cultural and artistic pursuits, supported by learning and time for family and friends

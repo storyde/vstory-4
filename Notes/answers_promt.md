@@ -1,6 +1,6 @@
-Prompt for the editor AI:
+Improve the answer choices.
  
-I am refining the answer choices that users can select for variables in a Holistic Context template.
+I am refining the answer choices that users can select for variables, so that the holistic context in the scene 22_holtext will become a well-worded sentence.
 
 Important: do NOT rewrite the template structure or change the order of the variables. Only improve the wording of the answers that go inside the variables so the final rendered text sounds natural, grammatical, and inspiring.
 

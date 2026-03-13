@@ -1,7 +1,6 @@
+Promt for the editor AI
 
-
-
-You are revising an interactive near-future narrative.
+You are revising an interactive narrative story.
 Do not change structure, tags, branching logic, or educational content.
 Only improve the writing.
 

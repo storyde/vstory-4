@@ -12,6 +12,12 @@ title: Progress
 
 [? if decision-makers = 0 : *Interact for more.* ?]
 
+[? if progress = 26 and player = "one" : Paper: <h1>Holistic Context:</h1><br>I want [+ qol-economic +] in a balanced life with [+ qol-balance +]. My relationships will be grounded in [+ qol-relationships +]. I thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. I find purpose in [+ qol-purpose +]. I seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>I will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
+
+[? if progress = 26 and player = "group" : Paper: <h1>Holistic Context:</h1><br>We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
+
+[? if progress = 26 and player = "org" : Paper: <h1>Holistic Context:</h1><br>We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
+
 [? if decision-makers != 0 : <h1>Holistic Context: </h1> ?]
 
 [? if decision-makers != 0 : **Whole Under Management** ?]
